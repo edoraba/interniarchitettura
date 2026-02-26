@@ -1,9 +1,10 @@
-import { readdir, unlink, writeFile } from 'fs/promises';
+import { readdir, writeFile } from 'fs/promises';
 import { basename, dirname, extname, join } from 'path';
 import sharp from 'sharp';
 
 const IMG_DIR = join(process.cwd(), 'public', 'img');
 const QUALITY = 80;
+const MAX_DIMENSION = 2000;
 const EXTENSIONS = ['.jpg', '.jpeg', '.png', '.JPG', '.JPEG', '.PNG'];
 
 function slugify(name) {
@@ -39,14 +40,16 @@ async function convertImage(filePath) {
   const outputPath = join(dir, `${slugName}.webp`);
 
   try {
-    await sharp(filePath).webp({ quality: QUALITY }).toFile(outputPath);
-
-    // Try to remove original, but don't fail if locked
-    try {
-      await unlink(filePath);
-    } catch {
-      // File might be locked by IDE/watcher - skip deletion
-    }
+    await sharp(filePath)
+      .rotate()
+      .resize({
+        width: MAX_DIMENSION,
+        height: MAX_DIMENSION,
+        fit: 'inside',
+        withoutEnlargement: true,
+      })
+      .webp({ quality: QUALITY })
+      .toFile(outputPath);
 
     console.log(`  ✓ ${basename(filePath)} → ${slugName}.webp`);
     return { original: basename(filePath), converted: `${slugName}.webp` };

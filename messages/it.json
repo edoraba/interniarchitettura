@@ -31,7 +31,100 @@
     "prevProject": "Progetto precedente",
     "backToProjects": "Torna ai progetti",
     "materials": "Materiali",
-    "location": "Luogo"
+    "location": "Luogo",
+    "categories": {
+      "residential": "Residenziale",
+      "commercial": "Commerciale"
+    },
+    "items": {
+      "ristrutturazione-villa-pino-torinese": {
+        "title": "Ristrutturazione Villa",
+        "alts": [
+          "Soggiorno ristrutturato con arredi contemporanei, villa a Pino Torinese - progetto Salamano & Ferro Architetti",
+          "Vista della zona giorno con luce naturale, villa ristrutturata Pino Torinese",
+          "Dettaglio interni con materiali pregiati, ristrutturazione villa Pino Torinese",
+          "Bagno ristrutturato con finiture moderne, villa Pino Torinese"
+        ]
+      },
+      "appartamento-corso-valdocco": {
+        "title": "Appartamento Corso Valdocco",
+        "alts": [
+          "Ingresso dell'appartamento ristrutturato su Corso Valdocco, Torino",
+          "Cucina moderna con piano in quarzo, appartamento Corso Valdocco",
+          "Zona living open space con arredi di design, Corso Valdocco Torino",
+          "Camera da letto con illuminazione progettata, appartamento Valdocco",
+          "Dettaglio finiture e materiali, ristrutturazione Corso Valdocco",
+          "Bagno con rivestimenti ceramici, appartamento Corso Valdocco Torino"
+        ]
+      },
+      "appartamento-corso-francia": {
+        "title": "Appartamento Corso Francia",
+        "alts": [
+          "Zona giorno dell'appartamento su Corso Francia, Torino - interior design Salamano & Ferro",
+          "Dettaglio pavimentazione e arredi, appartamento Corso Francia Torino",
+          "Bagno con piastrelle Marazzi Colorplay, ristrutturazione Corso Francia",
+          "Rivestimento Marazzi Naturalia effetto legno, bagno appartamento Corso Francia"
+        ]
+      },
+      "appartamento-via-porta-palatina": {
+        "title": "Appartamento Via Porta Palatina",
+        "alts": [
+          "Soggiorno con pavimento Italgraniti Shale Sand, appartamento Via Porta Palatina Torino",
+          "Cucina con finiture eleganti, ristrutturazione Via Porta Palatina",
+          "Camera con carta da parati vinilica floreale, appartamento centro storico Torino",
+          "Zona living con pavimento in gres Xilo effetto legno, Via Porta Palatina",
+          "Bagno con lavabo Casabath Luce freestanding, progetto Salamano & Ferro Architetti",
+          "Dettaglio sanitari e rivestimenti, bagno appartamento Via Porta Palatina",
+          "Tappezzeria vinilica con motivi floreali, parete decorata appartamento Torino",
+          "Vista d'insieme degli interni ristrutturati, Via Porta Palatina Torino",
+          "Dettaglio materiali e pavimentazione, appartamento Via Porta Palatina"
+        ]
+      },
+      "appartamento-corso-agnelli": {
+        "title": "Appartamento Corso Agnelli",
+        "alts": [
+          "Bagno con pavimento Arletta Metallica e rivestimento Totallook, appartamento Corso Agnelli Torino",
+          "Dettaglio piastrelle effetto ruggine e ceramiche bianche, ristrutturazione Corso Agnelli"
+        ]
+      },
+      "negozio-torino": {
+        "title": "Negozio",
+        "alts": [
+          "Spazio commerciale ristrutturato con vetrina, negozio Torino",
+          "Area vendita con illuminazione progettata, ristrutturazione negozio Torino",
+          "Bagno di servizio, negozio ristrutturato Torino",
+          "Retro del negozio con finiture moderne, locale commerciale Torino",
+          "Vista d'insieme dello spazio commerciale rinnovato, Torino"
+        ]
+      },
+      "ristrutturazione-casa-di-campagna": {
+        "title": "Ristrutturazione Casa di Campagna",
+        "alts": [
+          "Facciata della casa di campagna ristrutturata in Piemonte - progetto Salamano & Ferro",
+          "Cucina in stile rustico contemporaneo, casa di campagna Piemonte",
+          "Soggiorno con travi a vista e arredi moderni, ristrutturazione rurale Piemonte",
+          "Dettaglio interni con materiali naturali, casa di campagna ristrutturata",
+          "Camera da letto con vista sul paesaggio piemontese, casa di campagna"
+        ]
+      },
+      "studio-privato": {
+        "title": "Studio Privato",
+        "alts": [
+          "Render 3D dello studio privato con pavimento Italgraniti Shale Sand, Torino",
+          "Progetto dello studio professionale, visualizzazione materiali e arredi"
+        ]
+      },
+      "bilocale-via-thonon": {
+        "title": "Bilocale Via Thonon",
+        "alts": [
+          "Soggiorno del bilocale ristrutturato su Via Thonon, Torino",
+          "Cucina compatta con arredi funzionali, bilocale Via Thonon Torino",
+          "Camera da letto con ottimizzazione degli spazi, bilocale Torino",
+          "Dettaglio interni bilocale Via Thonon, ristrutturazione Torino",
+          "Planimetria del bagno, progetto bilocale Via Thonon Torino"
+        ]
+      }
+    }
   },
   "contact": {
     "sectionTitle": "Contatti",
@@ -42,7 +135,17 @@
   },
   "footer": {
     "copyright": "© {year} Salamano & Ferro Architetti. Tutti i diritti riservati.",
-    "credits": "Torino, Italia"
+    "poweredBy": "Powered by"
+  },
+  "notFound": {
+    "title": "404",
+    "description": "Pagina non trovata",
+    "backHome": "Torna alla home"
+  },
+  "cookie": {
+    "message": "Questo sito utilizza cookie tecnici per migliorare la tua esperienza di navigazione.",
+    "accept": "Accetta",
+    "decline": "Solo necessari"
   },
   "common": {
     "loading": "Caricamento...",

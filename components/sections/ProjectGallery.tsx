@@ -4,16 +4,13 @@ import { useRef } from 'react';
 
 import Image from 'next/image';
 
+import { useTranslations } from 'next-intl';
+
 import type { Project } from '@/data/projects';
 import { gsap, useGSAP } from '@/lib/gsap';
 
-export default function ProjectGallery({
-  project,
-  locale,
-}: {
-  project: Project;
-  locale: 'it' | 'en';
-}) {
+export default function ProjectGallery({ project }: { project: Project }) {
+  const t = useTranslations('projects');
   const galleryRef = useRef<HTMLDivElement>(null);
 
   useGSAP(
@@ -55,7 +52,11 @@ export default function ProjectGallery({
           >
             <Image
               src={project.images[i]}
-              alt={`${project.title[locale]} - ${i + 1}`}
+              alt={
+                t.has(`items.${project.slug}.alts.${i}`)
+                  ? t(`items.${project.slug}.alts.${i}`)
+                  : `${t(`items.${project.slug}.title`)} - ${i + 1}`
+              }
               fill
               className='object-cover'
               sizes='100vw'
@@ -81,7 +82,11 @@ export default function ProjectGallery({
                 >
                   <Image
                     src={src}
-                    alt={`${project.title[locale]} - ${i + j + 1}`}
+                    alt={
+                      t.has(`items.${project.slug}.alts.${i + j}`)
+                        ? t(`items.${project.slug}.alts.${i + j}`)
+                        : `${t(`items.${project.slug}.title`)} - ${i + j + 1}`
+                    }
                     fill
                     className='object-cover'
                     sizes='(max-width: 768px) 100vw, 50vw'
@@ -99,7 +104,11 @@ export default function ProjectGallery({
             >
               <Image
                 src={pair[0]}
-                alt={`${project.title[locale]} - ${i + 1}`}
+                alt={
+                  t.has(`items.${project.slug}.alts.${i}`)
+                    ? t(`items.${project.slug}.alts.${i}`)
+                    : `${t(`items.${project.slug}.title`)} - ${i + 1}`
+                }
                 fill
                 className='object-cover'
                 sizes='100vw'
@@ -123,7 +132,7 @@ export default function ProjectGallery({
         {project.materials && project.materials.length > 0 && (
           <div className='pt-12'>
             <h3 className='mb-4 font-text text-xs font-light tracking-[0.2em] text-gray-400 uppercase'>
-              {locale === 'it' ? 'Materiali' : 'Materials'}
+              {t('materials')}
             </h3>
             <ul className='space-y-1'>
               {project.materials.map((material, i) => (

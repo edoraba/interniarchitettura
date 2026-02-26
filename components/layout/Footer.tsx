@@ -15,7 +15,15 @@ export default function Footer() {
         </p>
         <div className='flex items-center gap-6'>
           <p className='font-text text-xs font-light tracking-wider text-gray-500'>
-            {t('credits')}
+            {t('poweredBy')}{' '}
+            <a
+              href='https://redergo.com'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-primary transition-opacity hover:opacity-70'
+            >
+              Redergo
+            </a>
           </p>
           <LanguageSwitcher />
         </div>

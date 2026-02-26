@@ -23,7 +23,10 @@ const RootProviders = ({ children }: { children: React.ReactNode }) => {
     <ReactLenis ref={lenisRef} options={options} root>
       <ScrollToTop />
       <PageTransitionProvider>
-        <HeroUIProvider>{children}</HeroUIProvider>
+        <HeroUIProvider>
+          {children}
+          {/* <CookieBanner /> */}
+        </HeroUIProvider>
       </PageTransitionProvider>
     </ReactLenis>
   );

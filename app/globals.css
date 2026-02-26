@@ -110,6 +110,22 @@ input[type='number'] {
   -moz-appearance: textfield;
 }
 
+/* Navbar entrance */
+@keyframes navbar-enter {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-navbar-enter {
+  animation: navbar-enter 1s cubic-bezier(0.33, 1, 0.68, 1) 0.5s backwards;
+}
+
 /* GSAP animation helpers */
 .split-line {
   overflow: hidden;

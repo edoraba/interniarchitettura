@@ -6,8 +6,14 @@ import { Link, usePathname } from '@/i18n/navigation';
 
 export default function LanguageSwitcher({
   className = '',
+  activeClassName = 'text-foreground',
+  inactiveClassName = 'text-gray-400 hover:text-foreground',
+  separatorClassName = 'text-gray-300',
 }: {
   className?: string;
+  activeClassName?: string;
+  inactiveClassName?: string;
+  separatorClassName?: string;
 }) {
   const locale = useLocale();
   const pathname = usePathname();
@@ -20,21 +26,17 @@ export default function LanguageSwitcher({
         href={pathname}
         locale='it'
         className={`px-1.5 py-0.5 transition-colors duration-300 ${
-          locale === 'it'
-            ? 'text-foreground'
-            : 'text-gray-400 hover:text-foreground'
+          locale === 'it' ? activeClassName : inactiveClassName
         }`}
       >
         IT
       </Link>
-      <span className='text-gray-300'>/</span>
+      <span className={separatorClassName}>/</span>
       <Link
         href={pathname}
         locale='en'
         className={`px-1.5 py-0.5 transition-colors duration-300 ${
-          locale === 'en'
-            ? 'text-foreground'
-            : 'text-gray-400 hover:text-foreground'
+          locale === 'en' ? activeClassName : inactiveClassName
         }`}
       >
         EN

@@ -4,10 +4,11 @@ import { useRef } from 'react';
 
 import Image from 'next/image';
 
-import { useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 import { usePageTransition } from '@/components/ui/PageTransition';
 import type { Project } from '@/data/projects';
+import { useRouter } from '@/i18n/navigation';
 import { gsap, useGSAP } from '@/lib/gsap';
 
 export default function ProjectCard({
@@ -17,11 +18,12 @@ export default function ProjectCard({
   project: Project;
   index: number;
 }) {
-  const locale = useLocale() as 'it' | 'en';
+  const t = useTranslations('projects');
   const { navigateWithTransition } = usePageTransition();
+  const router = useRouter();
   const cardRef = useRef<HTMLAnchorElement>(null);
   const imageRef = useRef<HTMLDivElement>(null);
-  const overlayRef = useRef<HTMLDivElement>(null);
+  const prefetchedRef = useRef(false);
 
   useGSAP(
     () => {
@@ -35,19 +37,17 @@ export default function ProjectCard({
         },
       });
 
-      // Clip-path curtain reveal: card unveils from bottom to top
       tl.fromTo(
         cardRef.current,
         { clipPath: 'inset(100% 0 0 0)' },
         {
           clipPath: 'inset(0% 0 0 0)',
           duration: 0.8,
-          delay: index * 0.1,
+          delay: index * 0.15,
           ease: 'power3.inOut',
         }
       );
 
-      // Simultaneously scale image from zoomed-in to normal
       tl.fromTo(
         imageRef.current,
         { scale: 1.1 },
@@ -63,19 +63,22 @@ export default function ProjectCard({
   );
 
   const handleMouseEnter = () => {
-    if (!imageRef.current || !overlayRef.current) return;
+    if (!imageRef.current) return;
     gsap.to(imageRef.current, {
-      scale: 1.05,
+      scale: 1.03,
       duration: 0.6,
       ease: 'power2.out',
     });
-    gsap.to(overlayRef.current, { opacity: 1, duration: 0.4 });
+
+    if (!prefetchedRef.current) {
+      router.prefetch(`/progetti/${project.slug}`);
+      prefetchedRef.current = true;
+    }
   };
 
   const handleMouseLeave = () => {
-    if (!imageRef.current || !overlayRef.current) return;
+    if (!imageRef.current) return;
     gsap.to(imageRef.current, { scale: 1, duration: 0.6, ease: 'power2.out' });
-    gsap.to(overlayRef.current, { opacity: 0, duration: 0.4 });
   };
 
   return (
@@ -86,36 +89,41 @@ export default function ProjectCard({
         e.preventDefault();
         navigateWithTransition(`/progetti/${project.slug}`);
       }}
-      className='group relative block overflow-hidden'
+      className='group block'
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className='relative aspect-3/2 w-full overflow-hidden'>
-        <div ref={imageRef} className='h-full w-full'>
+      {/* Image — natural ratio clamped between 3/5 (portrait) and 2/1 (landscape) */}
+      <div className='overflow-hidden'>
+        <div
+          ref={imageRef}
+          className='relative w-full'
+          style={{
+            aspectRatio: Math.max(3 / 5, Math.min(2, project.coverRatio)),
+          }}
+        >
           <Image
             src={project.cover}
-            alt={project.title[locale]}
+            alt={
+              t.has(`items.${project.slug}.alts.0`)
+                ? t(`items.${project.slug}.alts.0`)
+                : t(`items.${project.slug}.title`)
+            }
             fill
             className='object-cover'
             sizes='(max-width: 768px) 100vw, 50vw'
           />
         </div>
+      </div>
 
-        {/* Hover overlay */}
-        <div
-          ref={overlayRef}
-          className='absolute inset-0 flex flex-col justify-end bg-foreground/50 p-6 opacity-0 md:p-8'
-        >
-          <p className='font-text text-xs font-light tracking-[0.2em] text-white uppercase'>
-            {project.category[locale]}
-          </p>
-          <h3 className='mt-1 font-title text-2xl font-light tracking-wider text-white md:text-3xl'>
-            {project.title[locale]}
-          </h3>
-          <p className='mt-1 font-text text-sm font-light text-white/70'>
-            {project.location}
-          </p>
-        </div>
+      {/* Info */}
+      <div className='mt-4'>
+        <p className='font-text text-xs font-light tracking-[0.2em] text-gray-400 uppercase'>
+          {t(`categories.${project.category}`)} — {project.location}
+        </p>
+        <h3 className='mt-1.5 font-title text-xl font-light tracking-wider text-foreground transition-colors duration-300 group-hover:text-gray-400 md:text-2xl'>
+          {t(`items.${project.slug}.title`)}
+        </h3>
       </div>
     </a>
   );

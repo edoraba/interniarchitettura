@@ -31,7 +31,100 @@
     "prevProject": "Previous project",
     "backToProjects": "Back to projects",
     "materials": "Materials",
-    "location": "Location"
+    "location": "Location",
+    "categories": {
+      "residential": "Residential",
+      "commercial": "Commercial"
+    },
+    "items": {
+      "ristrutturazione-villa-pino-torinese": {
+        "title": "Villa Renovation",
+        "alts": [
+          "Renovated living room with contemporary furnishings, villa in Pino Torinese - Salamano & Ferro Architects project",
+          "Living area view with natural light, renovated villa Pino Torinese",
+          "Interior detail with premium materials, villa renovation Pino Torinese",
+          "Renovated bathroom with modern finishes, Pino Torinese villa"
+        ]
+      },
+      "appartamento-corso-valdocco": {
+        "title": "Corso Valdocco Apartment",
+        "alts": [
+          "Entrance of the renovated apartment on Corso Valdocco, Turin",
+          "Modern kitchen with quartz countertop, Corso Valdocco apartment",
+          "Open-plan living area with designer furniture, Corso Valdocco Turin",
+          "Bedroom with designed lighting, Valdocco apartment",
+          "Finishes and materials detail, Corso Valdocco renovation",
+          "Bathroom with ceramic wall tiles, Corso Valdocco apartment Turin"
+        ]
+      },
+      "appartamento-corso-francia": {
+        "title": "Corso Francia Apartment",
+        "alts": [
+          "Living area of the Corso Francia apartment, Turin - Salamano & Ferro interior design",
+          "Flooring and furniture detail, Corso Francia apartment Turin",
+          "Bathroom with Marazzi Colorplay tiles, Corso Francia renovation",
+          "Marazzi Naturalia wood-effect wall cladding, Corso Francia apartment bathroom"
+        ]
+      },
+      "appartamento-via-porta-palatina": {
+        "title": "Via Porta Palatina Apartment",
+        "alts": [
+          "Living room with Italgraniti Shale Sand flooring, Via Porta Palatina apartment Turin",
+          "Kitchen with elegant finishes, Via Porta Palatina renovation",
+          "Bedroom with floral vinyl wallpaper, historic center apartment Turin",
+          "Living area with Xilo wood-effect porcelain flooring, Via Porta Palatina",
+          "Bathroom with Casabath Luce freestanding washbasin, Salamano & Ferro Architects project",
+          "Fixtures and wall cladding detail, Via Porta Palatina apartment bathroom",
+          "Vinyl wallpaper with floral motifs, decorated wall Turin apartment",
+          "Overall view of the renovated interiors, Via Porta Palatina Turin",
+          "Materials and flooring detail, Via Porta Palatina apartment"
+        ]
+      },
+      "appartamento-corso-agnelli": {
+        "title": "Corso Agnelli Apartment",
+        "alts": [
+          "Bathroom with Arletta Metallica flooring and Totallook tiles, Corso Agnelli apartment Turin",
+          "Rust-effect tiles and white ceramic detail, Corso Agnelli renovation"
+        ]
+      },
+      "negozio-torino": {
+        "title": "Shop",
+        "alts": [
+          "Renovated commercial space with storefront, shop in Turin",
+          "Sales area with designed lighting, Turin shop renovation",
+          "Service bathroom, renovated shop Turin",
+          "Back area with modern finishes, commercial space Turin",
+          "Overall view of the renewed commercial space, Turin"
+        ]
+      },
+      "ristrutturazione-casa-di-campagna": {
+        "title": "Country House Renovation",
+        "alts": [
+          "Facade of the renovated country house in Piedmont - Salamano & Ferro project",
+          "Kitchen in contemporary rustic style, Piedmont country house",
+          "Living room with exposed beams and modern furniture, rural renovation Piedmont",
+          "Interior detail with natural materials, renovated country house",
+          "Bedroom with view of the Piedmont countryside, renovated house"
+        ]
+      },
+      "studio-privato": {
+        "title": "Private Office",
+        "alts": [
+          "3D render of the private office with Italgraniti Shale Sand flooring, Turin",
+          "Professional office project, materials and furniture visualization"
+        ]
+      },
+      "bilocale-via-thonon": {
+        "title": "Via Thonon Studio Apartment",
+        "alts": [
+          "Living room of the renovated studio apartment on Via Thonon, Turin",
+          "Compact kitchen with functional furnishings, Via Thonon studio Turin",
+          "Bedroom with optimized spaces, Turin studio apartment",
+          "Interior detail Via Thonon studio, Turin renovation",
+          "Bathroom floor plan, Via Thonon studio apartment project Turin"
+        ]
+      }
+    }
   },
   "contact": {
     "sectionTitle": "Contact",
@@ -42,7 +135,17 @@
   },
   "footer": {
     "copyright": "© {year} Salamano & Ferro Architects. All rights reserved.",
-    "credits": "Turin, Italy"
+    "poweredBy": "Powered by"
+  },
+  "notFound": {
+    "title": "404",
+    "description": "Page not found",
+    "backHome": "Back to home"
+  },
+  "cookie": {
+    "message": "This site uses technical cookies to improve your browsing experience.",
+    "accept": "Accept",
+    "decline": "Only necessary"
   },
   "common": {
     "loading": "Loading...",
