@@ -1,8 +1,9 @@
 'use client';
 
-import { HeroUIProvider } from '@heroui/react';
-import { ReactLenis, LenisRef } from 'lenis/react';
 import React, { useRef } from 'react';
+
+import { HeroUIProvider } from '@heroui/react';
+import { LenisRef, ReactLenis } from 'lenis/react';
 
 const RootProviders = ({ children }: { children: React.ReactNode }) => {
   const lenisRef = useRef<LenisRef>(null);

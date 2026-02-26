@@ -1,7 +1,12 @@
-import RootProviders from '@/providers/RootProviders';
-import 'lenis/dist/lenis.css';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import 'lenis/dist/lenis.css';
+
+import RootProviders from '@/providers/RootProviders';
+
 import './globals.css';
 
 const geistSans = localFont({
@@ -14,7 +19,7 @@ const geistMono = localFont({
   variable: '--font-title',
 });
 
-const isProduction = process.env.NODE_ENV === 'production';
+const isProduction = process.env.ENVIRONMENT === 'production';
 
 export const metadata: Metadata = {
   title: 'My App',
@@ -68,9 +73,11 @@ export default function RootLayout({
   return (
     <html lang='en' suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-background text-foreground font-text antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-background font-text text-foreground antialiased`}
       >
         <RootProviders>{children}</RootProviders>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
