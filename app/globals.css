@@ -1,0 +1,99 @@
+@import 'tailwindcss';
+@plugin '../hero.ts';
+@source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+
+@theme inline {
+  --font-title: var(--font-title);
+  --font-text: var(--font-text);
+
+  --color-foreground: #2e2e2e;
+  --color-background: #fefefe;
+
+  --color-primary: #4f8ef7;
+  --color-primary-dark: #0040ac;
+  --color-primary-light: #cfe1ff;
+  --color-primary-foreground: #fefefe;
+
+  --color-secondary: #ffd66b;
+  --color-secondary-foreground: #2e2e2e;
+
+  --color-grey: #d4d4d4;
+  --color-grey-foreground: #2e2e2e;
+
+  --color-green: #3ed818;
+  --color-red: #fd1e22;
+
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+  --breakpoint-2xl: 96rem;
+}
+
+@utility container {
+  padding-inline: 1rem;
+  margin-inline: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fcfaf8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d8d7d5;
+}
+
+/* Code for Firefox */
+::-moz-selection {
+  color: #272727;
+  background: #afafaf;
+}
+
+::selection {
+  color: #272727;
+  background: #afafaf;
+}
+
+img,
+video,
+svg,
+iframe {
+  user-select: none;
+}
+
+img {
+  pointer-events: none;
+}
+
+*:focus-visible {
+  outline: none;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
