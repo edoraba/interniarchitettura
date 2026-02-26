@@ -7,10 +7,9 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 
+import JsonLd from '@/components/seo/JsonLd';
 import { routing } from '@/i18n/routing';
 import RootProviders from '@/providers/RootProviders';
-
-import '../globals.css';
 
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
@@ -58,11 +57,33 @@ export default async function LocaleLayout({
 
   const messages = await getMessages();
 
+  const organizationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    '@id': `${siteUrl}/#organization`,
+    name: 'Salamano & Ferro Architetti',
+    alternateName: 'Interni Architettura',
+    url: siteUrl,
+    email: 'interni2architettura@gmail.com',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Torino',
+      addressRegion: 'Piemonte',
+      addressCountry: 'IT',
+    },
+    founder: [
+      { '@type': 'Person', name: 'Simonetta Salamano', jobTitle: 'Architetto' },
+      { '@type': 'Person', name: 'Paola Ferro', jobTitle: 'Architetto' },
+    ],
+    knowsLanguage: ['it', 'en'],
+  };
+
   return (
     <html lang={locale} suppressHydrationWarning>
       <body
         className={`${cormorant.variable} ${outfit.variable} min-h-screen bg-background font-text text-foreground antialiased`}
       >
+        <JsonLd data={organizationSchema} />
         <NextIntlClientProvider messages={messages}>
           <RootProviders>{children}</RootProviders>
         </NextIntlClientProvider>

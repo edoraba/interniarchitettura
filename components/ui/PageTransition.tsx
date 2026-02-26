@@ -86,7 +86,7 @@ export default function PageTransitionProvider({
       {children}
       <div
         ref={overlayRef}
-        className='pointer-events-none fixed inset-0 z-9999 bg-foreground'
+        className='pointer-events-none fixed inset-0 z-9999 bg-foreground will-change-transform'
       />
     </TransitionContext.Provider>
   );
