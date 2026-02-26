@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "projects": "Progetti",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "title": "Progettazione Architettonica & Arredo di Interni",
+    "subtitle": "Simonetta Salamano e Paola Ferro - Architetti",
+    "scroll": "Scorri"
+  },
+  "about": {
+    "sectionTitle": "Chi Siamo",
+    "simonetta": {
+      "name": "Simonetta Salamano",
+      "role": "Architetto",
+      "bio": "Laureata in Architettura presso il Politecnico di Torino, svolge attività professionale dal 1990. Si occupa principalmente di progettazione di interni e sviluppo del concept, con particolare attenzione allo studio dei layout distributivi e alla qualità spaziale degli ambienti. Accompagna i clienti nelle scelte di materiali, colori, illuminazione e arredi, seguendo direttamente le fasi più creative del progetto e offrendo un supporto personalizzato anche nella selezione presso showroom e fornitori. Ha approfondito temi legati al recupero dell'esistente, con esperienze in ambito residenziale, scolastico, assistenziale, bancario e aziendale, con un approccio orientato all'equilibrio tra funzionalità ed espressività."
+    },
+    "paola": {
+      "name": "Paola Ferro",
+      "role": "Architetto",
+      "bio": "Laureata in Architettura presso il Politecnico di Torino, svolge attività professionale dal 1991. Si occupa di progettazione architettonica e urbanistica, direzione lavori e coordinamento dei processi progettuali, con consolidata esperienza nel rapporto con enti pubblici e committenza privata. Segue le fasi operative del progetto e del cantiere, coordinando appalti, imprese e professionisti fino alla consegna finale delle opere. Il suo approccio è orientato alla qualità costruttiva, al controllo del processo realizzativo e all'attenzione per i temi della sostenibilità, dell'efficienza energetica e del comfort abitativo."
+    }
+  },
+  "projects": {
+    "sectionTitle": "Progetti",
+    "viewProject": "Scopri il progetto",
+    "allProjects": "Tutti i Progetti",
+    "nextProject": "Progetto successivo",
+    "prevProject": "Progetto precedente",
+    "backToProjects": "Torna ai progetti",
+    "materials": "Materiali",
+    "location": "Luogo"
+  },
+  "contact": {
+    "sectionTitle": "Contatti",
+    "heading": "Parliamo del tuo progetto",
+    "description": "Per consulenze, sopralluoghi o semplicemente per conoscerci, scrivici.",
+    "email": "interni2architettura@gmail.com",
+    "cta": "Scrivici"
+  },
+  "footer": {
+    "copyright": "© {year} Salamano & Ferro Architetti. Tutti i diritti riservati.",
+    "credits": "Torino, Italia"
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "backToHome": "Torna alla home"
+  },
+  "meta": {
+    "home": {
+      "title": "Interni Architettura - Salamano & Ferro Architetti | Torino",
+      "description": "Studio di architettura d'interni a Torino. Simonetta Salamano e Paola Ferro progettano spazi residenziali, commerciali e uffici con attenzione a materiali, luce e qualità spaziale."
+    },
+    "about": {
+      "title": "Chi Siamo - Salamano & Ferro Architetti | Torino",
+      "description": "Simonetta Salamano e Paola Ferro, architetti a Torino dal 1990. Progettazione di interni, direzione lavori e coordinamento cantieri per residenziale e commerciale."
+    },
+    "projects": {
+      "title": "Progetti - Salamano & Ferro Architetti | Torino",
+      "description": "Portfolio progetti di architettura d'interni: ristrutturazioni, appartamenti, ville, uffici e negozi a Torino e dintorni."
+    },
+    "contact": {
+      "title": "Contatti - Salamano & Ferro Architetti | Torino",
+      "description": "Contatta lo studio Salamano & Ferro Architetti a Torino per consulenze e progetti di architettura d'interni."
+    }
+  }
+}
