@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Architectural Design & Interior Furnishing",
+    "subtitle": "Simonetta Salamano & Paola Ferro - Architects",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "sectionTitle": "About Us",
+    "simonetta": {
+      "name": "Simonetta Salamano",
+      "role": "Architect",
+      "bio": "Graduated in Architecture from the Politecnico di Torino, she has been practicing professionally since 1990. She specializes in interior design and concept development, with particular attention to spatial layout studies and the quality of living environments. She accompanies clients in their choices of materials, colors, lighting, and furnishings, directly following the most creative phases of the project and offering personalized support including selections at showrooms and suppliers. She has deepened her expertise in renovation, with experience in residential, educational, healthcare, banking, and corporate environments, with an approach oriented toward the balance between functionality and expressiveness."
+    },
+    "paola": {
+      "name": "Paola Ferro",
+      "role": "Architect",
+      "bio": "Graduated in Architecture from the Politecnico di Torino, she has been practicing professionally since 1991. She specializes in architectural and urban design, construction management, and coordination of design processes, with consolidated experience in relations with public entities and private clients. She follows the operational phases of the project and construction site, coordinating contracts, companies, and professionals through to the final delivery of works. Her approach is oriented toward construction quality, control of the implementation process, and attention to themes of sustainability, energy efficiency, and living comfort."
+    }
+  },
+  "projects": {
+    "sectionTitle": "Projects",
+    "viewProject": "View project",
+    "allProjects": "All Projects",
+    "nextProject": "Next project",
+    "prevProject": "Previous project",
+    "backToProjects": "Back to projects",
+    "materials": "Materials",
+    "location": "Location"
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "heading": "Let's talk about your project",
+    "description": "For consultations, site visits, or simply to get to know us, write to us.",
+    "email": "interni2architettura@gmail.com",
+    "cta": "Write to us"
+  },
+  "footer": {
+    "copyright": "© {year} Salamano & Ferro Architects. All rights reserved.",
+    "credits": "Turin, Italy"
+  },
+  "common": {
+    "loading": "Loading...",
+    "backToHome": "Back to home"
+  },
+  "meta": {
+    "home": {
+      "title": "Interni Architettura - Salamano & Ferro Architects | Turin",
+      "description": "Interior architecture studio in Turin. Simonetta Salamano and Paola Ferro design residential, commercial, and office spaces with attention to materials, light, and spatial quality."
+    },
+    "about": {
+      "title": "About Us - Salamano & Ferro Architects | Turin",
+      "description": "Simonetta Salamano and Paola Ferro, architects in Turin since 1990. Interior design, construction management, and site coordination for residential and commercial projects."
+    },
+    "projects": {
+      "title": "Projects - Salamano & Ferro Architects | Turin",
+      "description": "Interior architecture portfolio: renovations, apartments, villas, offices, and shops in Turin and surrounding areas."
+    },
+    "contact": {
+      "title": "Contact - Salamano & Ferro Architects | Turin",
+      "description": "Contact Salamano & Ferro Architects studio in Turin for consultations and interior architecture projects."
+    }
+  }
+}

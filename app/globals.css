@@ -6,23 +6,33 @@
   --font-title: var(--font-title);
   --font-text: var(--font-text);
 
-  --color-foreground: #2e2e2e;
-  --color-background: #fefefe;
+  /* Background & Foreground */
+  --color-foreground: #1a1a1a;
+  --color-background: #fafaf8;
 
-  --color-primary: #4f8ef7;
-  --color-primary-dark: #0040ac;
-  --color-primary-light: #cfe1ff;
-  --color-primary-foreground: #fefefe;
+  /* Primary - accent magenta */
+  --color-primary: #972a90;
+  --color-primary-dark: #7a2075;
+  --color-primary-light: #b84db2;
+  --color-primary-foreground: #fafaf8;
 
-  --color-secondary: #ffd66b;
-  --color-secondary-foreground: #2e2e2e;
+  /* Secondary */
+  --color-secondary: #f7f7f5;
+  --color-secondary-foreground: #1a1a1a;
 
-  --color-grey: #d4d4d4;
-  --color-grey-foreground: #2e2e2e;
+  /* Grays */
+  --color-gray-50: #f7f7f5;
+  --color-gray-100: #efefed;
+  --color-gray-200: #e0e0de;
+  --color-gray-300: #d0d0ce;
+  --color-gray-400: #a8a8a6;
+  --color-gray-500: #787876;
+  --color-gray-600: #525250;
+  --color-gray-700: #3d3d3b;
+  --color-gray-800: #2a2a28;
+  --color-gray-900: #1a1a1a;
 
-  --color-green: #3ed818;
-  --color-red: #fd1e22;
-
+  /* Breakpoints */
   --breakpoint-sm: 40rem;
   --breakpoint-md: 48rem;
   --breakpoint-lg: 64rem;
@@ -31,42 +41,52 @@
 }
 
 @utility container {
-  padding-inline: 1rem;
+  padding-inline: clamp(1rem, 4vw, 3rem);
   margin-inline: auto;
+  max-width: 90rem;
 }
 
-/* width */
+/* Scrollbar */
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 4px;
   height: 0px;
 }
 
-.scrollbar::-webkit-scrollbar {
-  width: 6px;
-  height: 0px;
-}
-
-/* Track */
 ::-webkit-scrollbar-track {
-  background: #fcfaf8;
+  background: var(--color-background);
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #d8d7d5;
+  background: var(--color-gray-300);
+  border-radius: 2px;
 }
 
-/* Code for Firefox */
-::-moz-selection {
-  color: #272727;
-  background: #afafaf;
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
 }
 
+/* Ensure all interactive elements show pointer cursor */
+a,
+button,
+[role='button'],
+input[type='submit'],
+input[type='button'],
+summary {
+  cursor: pointer;
+}
+
+/* Selection */
 ::selection {
-  color: #272727;
-  background: #afafaf;
+  color: var(--color-primary-foreground);
+  background: var(--color-primary);
 }
 
+::-moz-selection {
+  color: var(--color-primary-foreground);
+  background: var(--color-primary);
+}
+
+/* Media defaults */
 img,
 video,
 svg,
@@ -74,26 +94,31 @@ iframe {
   user-select: none;
 }
 
-img {
-  pointer-events: none;
-}
-
 *:focus-visible {
-  outline: none;
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 
-.center {
-  justify-content: center;
-  align-items: center;
-}
-
+/* Remove number input spinners */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* Firefox */
 input[type='number'] {
   -moz-appearance: textfield;
+}
+
+/* GSAP animation helpers */
+.split-line {
+  overflow: hidden;
+}
+
+.reveal-clip {
+  clip-path: inset(100% 0 0 0);
+}
+
+.reveal-clip.active {
+  clip-path: inset(0);
 }
