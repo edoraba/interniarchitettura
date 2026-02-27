@@ -6,27 +6,37 @@ const BASE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || 'https://interniarchitettura.it';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const locales = ['it', 'en'];
+  const locales = ['it', 'en'] as const;
 
-  // Static pages
-  const staticPages = locales.flatMap(locale => [
-    {
-      url: `${BASE_URL}/${locale}`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 1,
-    },
-  ]);
+  const staticPages = [''];
 
-  // Project pages
-  const projectPages = locales.flatMap(locale =>
-    projects.map(project => ({
-      url: `${BASE_URL}/${locale}/progetti/${project.slug}`,
+  const staticEntries = staticPages.flatMap(page =>
+    locales.map(locale => ({
+      url: `${BASE_URL}/${locale}${page}`,
       lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 0.8,
+      alternates: {
+        languages: {
+          it: `${BASE_URL}/it${page}`,
+          en: `${BASE_URL}/en${page}`,
+          'x-default': `${BASE_URL}/it${page}`,
+        },
+      },
     }))
   );
 
-  return [...staticPages, ...projectPages];
+  const projectEntries = projects.flatMap(project =>
+    locales.map(locale => ({
+      url: `${BASE_URL}/${locale}/progetti/${project.slug}`,
+      lastModified: new Date(),
+      alternates: {
+        languages: {
+          it: `${BASE_URL}/it/progetti/${project.slug}`,
+          en: `${BASE_URL}/en/progetti/${project.slug}`,
+          'x-default': `${BASE_URL}/it/progetti/${project.slug}`,
+        },
+      },
+    }))
+  );
+
+  return [...staticEntries, ...projectEntries];
 }

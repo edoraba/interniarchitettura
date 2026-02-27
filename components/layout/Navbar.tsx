@@ -28,7 +28,6 @@ export default function Navbar() {
   const scrollToSection = useScrollToSection();
   const pendingSectionRef = useRef<string | null>(null);
 
-  // Mobile menu timeline setup
   useGSAP(
     () => {
       if (!menuRef.current) return;
@@ -75,7 +74,6 @@ export default function Navbar() {
     { scope: menuRef }
   );
 
-  // Scroll-based hide/show
   useLenis(lenis => {
     lenisRef.current = lenis;
     if (!navRef.current || menuOpen) return;
@@ -100,7 +98,6 @@ export default function Navbar() {
     }
   });
 
-  // Handle deferred scroll after navigating back to homepage
   useEffect(() => {
     if (pathname === '/' && pendingSectionRef.current) {
       const timeout = setTimeout(() => {

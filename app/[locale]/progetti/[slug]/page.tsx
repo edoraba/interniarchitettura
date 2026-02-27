@@ -39,12 +39,14 @@ export async function generateMetadata({
       languages: {
         it: `/it/progetti/${slug}`,
         en: `/en/progetti/${slug}`,
+        'x-default': `/it/progetti/${slug}`,
       },
     },
     openGraph: {
       title,
       images: [{ url: project.cover, width: 1200, height: 630 }],
       locale: locale === 'it' ? 'it_IT' : 'en_US',
+      alternateLocale: locale === 'it' ? 'en_US' : 'it_IT',
       type: 'article',
     },
   };
@@ -93,7 +95,6 @@ export default async function ProjectPage({
       <JsonLd data={projectSchema} />
       <Navbar />
       <main>
-        {/* Project Hero */}
         <section className='relative flex min-h-[70vh] items-end overflow-hidden bg-foreground'>
           <Image
             src={project.cover}
@@ -117,10 +118,8 @@ export default async function ProjectPage({
           </div>
         </section>
 
-        {/* Gallery */}
         <ProjectGallery project={project} />
 
-        {/* Back to projects */}
         <section className='border-t border-gray-200 bg-background'>
           <div className='container py-8 text-center'>
             <TransitionLink
@@ -132,7 +131,6 @@ export default async function ProjectPage({
           </div>
         </section>
 
-        {/* Prev / Next Navigation */}
         <section className='border-t border-gray-200 bg-background'>
           <div className='container grid grid-cols-2 divide-x divide-gray-200'>
             {prev ? (

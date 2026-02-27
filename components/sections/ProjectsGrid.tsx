@@ -15,7 +15,6 @@ export default function ProjectsGrid() {
   return (
     <section id='progetti' className='bg-background pb-24 md:pb-40'>
       <div className='container'>
-        {/* Section title */}
         <AnimatedText
           as='h2'
           className='mb-20 font-title text-[8vw] leading-none font-light tracking-[0.02em] text-foreground md:mb-28 md:text-[4vw]'
@@ -25,9 +24,7 @@ export default function ProjectsGrid() {
           {t('sectionTitle')}
         </AnimatedText>
 
-        {/* Staggered two-column layout */}
         <div className='flex flex-col gap-12 md:flex-row md:gap-8'>
-          {/* Left column — 55% */}
           <div className='flex flex-col gap-16 md:w-[55%] md:gap-24'>
             {leftColumn.map(project => (
               <ProjectCard
@@ -38,7 +35,6 @@ export default function ProjectsGrid() {
             ))}
           </div>
 
-          {/* Right column — 45%, offset */}
           <div className='flex flex-col gap-16 md:mt-40 md:w-[45%] md:gap-24'>
             {rightColumn.map(project => (
               <ProjectCard
