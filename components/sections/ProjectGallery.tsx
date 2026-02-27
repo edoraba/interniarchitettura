@@ -37,13 +37,11 @@ export default function ProjectGallery({ project }: { project: Project }) {
     { scope: galleryRef }
   );
 
-  // Create an alternating layout: full-width, then 2-col, then full-width...
   const renderImages = () => {
     const elements: React.ReactNode[] = [];
     let i = 0;
 
     while (i < project.images.length) {
-      // Full width image
       if (i === 0 || (i > 0 && i % 3 === 0)) {
         elements.push(
           <div
@@ -66,7 +64,6 @@ export default function ProjectGallery({ project }: { project: Project }) {
         i++;
       }
 
-      // Two column
       if (i < project.images.length) {
         const pair = project.images.slice(i, i + 2);
         if (pair.length === 2) {

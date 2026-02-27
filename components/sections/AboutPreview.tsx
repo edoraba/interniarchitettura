@@ -11,7 +11,6 @@ export default function AboutPreview() {
   return (
     <section id='chi-siamo' className='bg-background py-24 md:py-40'>
       <div className='container'>
-        {/* Section title */}
         <AnimatedText
           as='h2'
           className='mb-20 font-title text-[8vw] leading-none font-light tracking-[0.02em] text-foreground md:text-[4vw]'
@@ -21,9 +20,7 @@ export default function AboutPreview() {
           {t('sectionTitle')}
         </AnimatedText>
 
-        {/* Two columns */}
         <div className='grid gap-16 md:grid-cols-2 md:gap-24'>
-          {/* Simonetta */}
           <RevealOnScroll delay={0.1}>
             <div className='space-y-4'>
               <div className='mb-6'>
@@ -40,7 +37,6 @@ export default function AboutPreview() {
             </div>
           </RevealOnScroll>
 
-          {/* Paola */}
           <RevealOnScroll delay={0.3}>
             <div className='space-y-4'>
               <div className='mb-6'>
@@ -58,7 +54,6 @@ export default function AboutPreview() {
           </RevealOnScroll>
         </div>
 
-        {/* Decorative line */}
         <RevealOnScroll className='mt-24'>
           <div className='h-px w-full bg-gray-200' />
         </RevealOnScroll>

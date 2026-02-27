@@ -26,7 +26,6 @@ export default function Hero() {
         mask: 'chars',
       });
 
-      // Animate title chars
       tl.from(titleSplit.chars, {
         y: '100%',
         rotateX: -40,
@@ -36,7 +35,6 @@ export default function Hero() {
         ease: 'power4.out',
       });
 
-      // Animate decorative line
       if (lineRef.current) {
         tl.from(
           lineRef.current,
@@ -49,7 +47,6 @@ export default function Hero() {
         );
       }
 
-      // Animate subtitle
       tl.from(
         subtitleRef.current,
         {
@@ -61,7 +58,6 @@ export default function Hero() {
         '-=0.3'
       );
 
-      // Scroll indicator
       if (scrollRef.current) {
         tl.from(
           scrollRef.current,
@@ -72,7 +68,6 @@ export default function Hero() {
           '-=0.2'
         );
 
-        // Infinite bounce
         gsap.to(scrollRef.current, {
           y: 8,
           repeat: -1,
@@ -91,7 +86,6 @@ export default function Hero() {
       ref={sectionRef}
       className='relative flex min-h-screen items-center justify-center overflow-hidden bg-background'
     >
-      {/* Subtle background noise texture */}
       <div
         className='pointer-events-none absolute inset-0 opacity-[0.04]'
         style={{
@@ -122,7 +116,6 @@ export default function Hero() {
         </p>
       </div>
 
-      {/* Scroll indicator */}
       <div
         ref={scrollRef}
         className='absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2'

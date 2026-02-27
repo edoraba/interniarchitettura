@@ -32,7 +32,6 @@ export default function PageTransitionProvider({
   const pendingNav = useRef<string | null>(null);
   const isAnimating = useRef(false);
 
-  // Initialize overlay above viewport
   useEffect(() => {
     if (overlayRef.current) {
       gsap.set(overlayRef.current, { yPercent: -100 });
@@ -45,7 +44,6 @@ export default function PageTransitionProvider({
       isAnimating.current = true;
       pendingNav.current = href;
 
-      // Overlay slides down from top to cover the page
       gsap.fromTo(
         overlayRef.current,
         { yPercent: -100 },
@@ -60,7 +58,6 @@ export default function PageTransitionProvider({
     [router]
   );
 
-  // When pathname changes = new page loaded → slide overlay off screen
   useEffect(() => {
     if (pendingNav.current && overlayRef.current) {
       pendingNav.current = null;
@@ -72,7 +69,6 @@ export default function PageTransitionProvider({
         delay: 0.15,
         onComplete: () => {
           isAnimating.current = false;
-          // Reset overlay above viewport for next transition
           if (overlayRef.current) {
             gsap.set(overlayRef.current, { yPercent: -100 });
           }

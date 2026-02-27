@@ -23,12 +23,14 @@ export async function generateMetadata({
       languages: {
         it: '/it',
         en: '/en',
+        'x-default': '/it',
       },
     },
     openGraph: {
       title: t('title'),
       description: t('description'),
       locale: locale === 'it' ? 'it_IT' : 'en_US',
+      alternateLocale: locale === 'it' ? 'en_US' : 'it_IT',
       type: 'website',
     },
   };

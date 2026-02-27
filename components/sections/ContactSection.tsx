@@ -59,7 +59,6 @@ export default function ContactSection() {
           </p>
         </RevealOnScroll>
 
-        {/* Email - large typography */}
         <div className='overflow-hidden'>
           <a
             ref={emailRef}
