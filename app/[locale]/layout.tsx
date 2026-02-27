@@ -34,6 +34,13 @@ const siteUrl =
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  robots: {
+    index: true,
+    follow: true,
+    'max-snippet': -1,
+    'max-image-preview': 'large',
+    'max-video-preview': -1,
+  },
   icons: {
     icon: '/favicon.ico',
     apple: '/apple-touch-icon.png',
@@ -67,15 +74,54 @@ export default async function LocaleLayout({
     email: 'interni2architettura@gmail.com',
     address: {
       '@type': 'PostalAddress',
+      streetAddress: 'Torino',
       addressLocality: 'Torino',
+      postalCode: '10153',
       addressRegion: 'Piemonte',
       addressCountry: 'IT',
     },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 45.0703,
+      longitude: 7.6869,
+    },
+    areaServed: {
+      '@type': 'State',
+      name: 'Piemonte',
+    },
+    sameAs: ['https://www.instagram.com/interniarchitettura/'],
     founder: [
       { '@type': 'Person', name: 'Simonetta Salamano', jobTitle: 'Architetto' },
       { '@type': 'Person', name: 'Paola Ferro', jobTitle: 'Architetto' },
     ],
     knowsLanguage: ['it', 'en'],
+    makesOffer: [
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Progettazione di interni',
+          description: 'Interior design per spazi residenziali e commerciali',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Ristrutturazioni',
+          description:
+            'Ristrutturazione appartamenti, ville e locali commerciali',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'Direzione lavori',
+          description: 'Coordinamento cantieri, appalti e imprese',
+        },
+      },
+    ],
   };
 
   return (
