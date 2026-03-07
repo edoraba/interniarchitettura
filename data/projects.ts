@@ -61,7 +61,7 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    slug: 'appartamento-corso-francia',
+    slug: 'appartamento-via-porta-palatina',
     category: 'residential',
     location: 'Torino',
     year: '2025',
@@ -88,11 +88,11 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    slug: 'appartamento-via-porta-palatina',
+    slug: 'appartamento-corso-francia',
     category: 'residential',
     location: 'Torino',
     year: '2024',
-    size: '100 + 160 mq',
+    size: '110 mq',
     images: [
       '/img/4/1.webp',
       '/img/4/2.webp',
@@ -107,7 +107,7 @@ export const projects: Project[] = [
     slug: 'appartamento-corso-agnelli',
     category: 'residential',
     location: 'Torino',
-    year: '2025',
+    year: '2024',
     size: '100 mq',
     images: [
       '/img/5/1.webp',
@@ -123,14 +123,14 @@ export const projects: Project[] = [
     slug: 'bilocale-via-thonon',
     category: 'residential',
     location: 'Torino',
-    year: '2024',
+    year: '2023',
     size: '35 mq',
     images: [
       '/img/6/1.webp',
-      '/img/6/1a.webp',
+      '/img/6/3.webp',
       '/img/6/2.webp',
       '/img/6/2a.webp',
-      '/img/6/3.webp',
+      '/img/6/1a.webp',
     ],
     cover: '/img/6/1.webp',
     coverRatio: 912 / 1168,
@@ -184,7 +184,7 @@ export const projects: Project[] = [
     slug: 'stabilimento-industriale-govone',
     category: 'industrial',
     location: 'Govone (CN)',
-    year: '2017-2020',
+    year: '2017-2019',
     size: '~6800 mq',
     images: [
       '/img/10/1.webp',
