@@ -8,7 +8,7 @@ const BASE_URL =
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = ['it', 'en'] as const;
 
-  const staticPages = [''];
+  const staticPages = ['', '/privacy-policy'];
 
   const staticEntries = staticPages.flatMap(page =>
     locales.map(locale => ({

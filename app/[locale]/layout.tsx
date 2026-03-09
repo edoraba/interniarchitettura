@@ -42,8 +42,19 @@ export const metadata: Metadata = {
     'max-video-preview': -1,
   },
   icons: {
-    icon: '/favicon.ico',
-    apple: '/apple-touch-icon.png',
+    icon: [
+      { url: '/favicon.ico', type: 'image/x-icon' },
+      { url: '/favicon-96x96.png', type: 'image/png', sizes: '96x96' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: { url: '/apple-touch-icon.png', sizes: '180x180' },
+  },
+  manifest: '/site.webmanifest',
+  other: {
+    'apple-mobile-web-app-title': 'SF',
+  },
+  twitter: {
+    card: 'summary_large_image',
   },
 };
 
@@ -64,17 +75,32 @@ export default async function LocaleLayout({
 
   const messages = await getMessages();
 
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${siteUrl}/#website`,
+    name: 'Interni Architettura',
+    alternateName: 'Ferro & Salamano Architetti',
+    url: siteUrl,
+    inLanguage: ['it', 'en'],
+    publisher: {
+      '@id': `${siteUrl}/#organization`,
+    },
+  };
+
   const organizationSchema = {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
+    '@type': ['LocalBusiness', 'ProfessionalService'],
     '@id': `${siteUrl}/#organization`,
-    name: 'Salamano & Ferro Architetti',
+    name: 'Ferro & Salamano Architetti',
     alternateName: 'Interni Architettura',
+    description:
+      "Studio di architettura d'interni a Torino. Progettazione di interni, ristrutturazioni e direzione lavori per spazi residenziali, commerciali e uffici.",
     url: siteUrl,
     email: 'interni2architettura@gmail.com',
+    image: `${siteUrl}/img/1/1.webp`,
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Torino',
       addressLocality: 'Torino',
       postalCode: '10153',
       addressRegion: 'Piemonte',
@@ -86,15 +112,39 @@ export default async function LocaleLayout({
       longitude: 7.6869,
     },
     areaServed: {
-      '@type': 'State',
+      '@type': 'AdministrativeArea',
       name: 'Piemonte',
     },
     sameAs: ['https://www.instagram.com/interniarchitettura/'],
     founder: [
-      { '@type': 'Person', name: 'Simonetta Salamano', jobTitle: 'Architetto' },
-      { '@type': 'Person', name: 'Paola Ferro', jobTitle: 'Architetto' },
+      {
+        '@type': 'Person',
+        '@id': `${siteUrl}/#simonetta-salamano`,
+        name: 'Simonetta Salamano',
+        jobTitle: 'Architetto',
+        alumniOf: {
+          '@type': 'CollegeOrUniversity',
+          name: 'Politecnico di Torino',
+        },
+      },
+      {
+        '@type': 'Person',
+        '@id': `${siteUrl}/#paola-ferro`,
+        name: 'Paola Ferro',
+        jobTitle: 'Architetto',
+        alumniOf: {
+          '@type': 'CollegeOrUniversity',
+          name: 'Politecnico di Torino',
+        },
+      },
     ],
     knowsLanguage: ['it', 'en'],
+    knowsAbout: [
+      'Interior Design',
+      "Architettura d'interni",
+      'Ristrutturazioni',
+      'Direzione lavori',
+    ],
     makesOffer: [
       {
         '@type': 'Offer',
@@ -129,6 +179,7 @@ export default async function LocaleLayout({
       <body
         className={`${cormorant.variable} ${outfit.variable} min-h-screen bg-background font-text text-foreground antialiased`}
       >
+        <JsonLd data={websiteSchema} />
         <JsonLd data={organizationSchema} />
         <NextIntlClientProvider messages={messages}>
           <RootProviders>{children}</RootProviders>

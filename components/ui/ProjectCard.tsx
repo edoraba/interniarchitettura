@@ -121,7 +121,7 @@ export default function ProjectCard({
 
       <div className='mt-4'>
         <p className='font-text text-xs font-light tracking-[0.2em] text-gray-400 uppercase'>
-          {t(`categories.${project.category}`)} — {project.location}
+          {t(`categories.${project.category}`)} - {project.location}
         </p>
         <h3 className='mt-1.5 font-title text-xl font-light tracking-wider text-foreground transition-colors duration-300 group-hover:text-gray-400 md:text-2xl'>
           {t(`items.${project.slug}.title`)}

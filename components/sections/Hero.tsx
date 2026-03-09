@@ -4,14 +4,17 @@ import { useRef } from 'react';
 
 import { useTranslations } from 'next-intl';
 
+import useScrollToSection from '@/hooks/useScrollToSection';
 import { SplitText, gsap, useGSAP } from '@/lib/gsap';
 
 export default function Hero() {
   const t = useTranslations('hero');
+  const scrollToSection = useScrollToSection();
   const sectionRef = useRef<HTMLElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const subtitleRef = useRef<HTMLParagraphElement>(null);
   const lineRef = useRef<HTMLDivElement>(null);
+  const ctaRef = useRef<HTMLButtonElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useGSAP(
@@ -57,6 +60,19 @@ export default function Hero() {
         },
         '-=0.3'
       );
+
+      if (ctaRef.current) {
+        tl.from(
+          ctaRef.current,
+          {
+            y: 20,
+            opacity: 0,
+            duration: 0.5,
+            ease: 'power3.out',
+          },
+          '-=0.1'
+        );
+      }
 
       if (scrollRef.current) {
         tl.from(
@@ -114,6 +130,16 @@ export default function Hero() {
         >
           {t('subtitle')}
         </p>
+
+        <button
+          ref={ctaRef}
+          onClick={() =>
+            scrollToSection('#progetti', { duration: 1.2, offset: -20 })
+          }
+          className='mt-10 inline-block border border-foreground/30 px-8 py-3 font-text text-xs font-light tracking-[0.2em] text-foreground uppercase transition-all duration-300 hover:border-foreground hover:bg-foreground hover:text-background md:mt-14'
+        >
+          {t('cta')}
+        </button>
       </div>
 
       <div

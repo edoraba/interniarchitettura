@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 
 import { useLenis } from 'lenis/react';
 import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
 
 import LanguageSwitcher from '@/components/ui/LanguageSwitcher';
 import { usePageTransition } from '@/components/ui/PageTransition';
@@ -23,6 +24,7 @@ export default function Navbar({ glass = false }: { glass?: boolean }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const isHidden = useRef(false);
   const lenisRef = useRef<ReturnType<typeof useLenis> | null>(null);
+  const locale = useLocale();
   const pathname = usePathname();
   const { navigateWithTransition } = usePageTransition();
   const scrollToSection = useScrollToSection();
@@ -169,7 +171,7 @@ export default function Navbar({ glass = false }: { glass?: boolean }) {
         <div className='container flex items-center justify-between py-4'>
           {/* Logo */}
           <TransitionLink
-            href='/'
+            href={`/${locale}`}
             className='font-title text-lg font-light tracking-[0.2em] text-foreground uppercase transition-opacity hover:opacity-70'
           >
             S&F
@@ -196,24 +198,24 @@ export default function Navbar({ glass = false }: { glass?: boolean }) {
           {/* Mobile Menu Button */}
           <button
             onClick={toggleMenu}
-            className='flex flex-col gap-1.5 md:hidden'
+            className='flex flex-col items-center justify-center gap-1.5 p-3 md:hidden'
             aria-label='Toggle menu'
           >
             <span
               className={cn(
-                'bg-foregtext-foreground block h-px w-6 transition-transform duration-300',
+                'block h-px w-6 bg-foreground transition-transform duration-300',
                 menuOpen && 'translate-y-1.75 rotate-45'
               )}
             />
             <span
               className={cn(
-                'bg-foregtext-foreground block h-px w-6 transition-opacity duration-300',
+                'block h-px w-6 bg-foreground transition-opacity duration-300',
                 menuOpen && 'opacity-0'
               )}
             />
             <span
               className={cn(
-                'bg-foregtext-foreground block h-px w-6 transition-transform duration-300',
+                'block h-px w-6 bg-foreground transition-transform duration-300',
                 menuOpen && '-translate-y-1.75 -rotate-45'
               )}
             />

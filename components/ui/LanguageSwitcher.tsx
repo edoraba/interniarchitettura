@@ -25,7 +25,7 @@ export default function LanguageSwitcher({
       <Link
         href={pathname}
         locale='it'
-        className={`px-1.5 py-0.5 transition-colors duration-300 ${
+        className={`px-2 py-2 transition-colors duration-300 ${
           locale === 'it' ? activeClassName : inactiveClassName
         }`}
       >
@@ -35,7 +35,7 @@ export default function LanguageSwitcher({
       <Link
         href={pathname}
         locale='en'
-        className={`px-1.5 py-0.5 transition-colors duration-300 ${
+        className={`px-2 py-2 transition-colors duration-300 ${
           locale === 'en' ? activeClassName : inactiveClassName
         }`}
       >

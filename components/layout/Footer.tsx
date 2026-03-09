@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 
 import LanguageSwitcher from '@/components/ui/LanguageSwitcher';
+import TransitionLink from '@/components/ui/TransitionLink';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -10,9 +11,17 @@ export default function Footer() {
   return (
     <footer className='border-t border-gray-200 bg-background'>
       <div className='container flex flex-col items-center justify-between gap-4 py-8 md:flex-row'>
-        <p className='font-text text-xs font-light tracking-wider text-gray-500'>
-          {t('copyright', { year: new Date().getFullYear() })}
-        </p>
+        <div className='flex items-center gap-4'>
+          <p className='font-text text-xs font-light tracking-wider text-gray-500'>
+            {t('copyright', { year: new Date().getFullYear() })}
+          </p>
+          <TransitionLink
+            href='/privacy-policy'
+            className='font-text text-xs font-light tracking-wider text-gray-400 transition-colors hover:text-foreground'
+          >
+            {t('privacy')}
+          </TransitionLink>
+        </div>
         <div className='flex items-center gap-6'>
           <p className='font-text text-xs font-light tracking-wider text-gray-500'>
             {t('poweredBy')}{' '}
