@@ -8,7 +8,8 @@
   "hero": {
     "title": "Architectural Design & Interior Furnishing",
     "subtitle": "Simonetta Salamano & Paola Ferro - Architects",
-    "scroll": "Scroll"
+    "scroll": "Scroll",
+    "cta": "Discover our projects"
   },
   "about": {
     "sectionTitle": "About Us",
@@ -44,139 +45,139 @@
     "items": {
       "villa-pino-torinese": {
         "title": "Villa Pino Torinese",
-        "description": "A detached villa arranged over four levels, distinguished by a strong visual continuity between its spaces. The ground floor is organized around a pass-through fireplace — the focal point of the living-kitchen area and the central element of the entire project — capable of defining and simultaneously connecting the rooms. Natural light is an integral part of the home: it filters through every opening via the garden vegetation, establishing a constant dialogue between interior and exterior. The sleeping quarters, more secluded in character, are distributed across the two upper levels, ensuring privacy and tranquility. The interior palette draws upon the colors of the surrounding landscape, reinforcing the harmony between the house and its natural setting.",
+        "description": "A detached villa arranged over four levels, distinguished by a strong visual continuity between its spaces. The ground floor is organized around a pass-through fireplace - the focal point of the living-kitchen area and the central element of the entire project - capable of defining and simultaneously connecting the rooms. Natural light is an integral part of the home: it filters through every opening via the garden vegetation, establishing a constant dialogue between interior and exterior. The sleeping quarters, more secluded in character, are distributed across the two upper levels, ensuring privacy and tranquility. The interior palette draws upon the colors of the surrounding landscape, reinforcing the harmony between the house and its natural setting.",
         "alts": [
-          "Living room with pass-through fireplace, Villa Pino Torinese — natural light and garden views",
-          "Open-plan kitchen and living area, Villa Pino Torinese — visual continuity between spaces",
-          "Ground floor living space, Villa Pino Torinese — fireplace as central design element",
-          "Interior view with natural light filtering through garden, Villa Pino Torinese — indoor-outdoor dialogue",
-          "Dining area with contemporary furnishings, Villa Pino Torinese — landscape-inspired color palette",
-          "Staircase connecting four levels, Villa Pino Torinese — architectural continuity and flow",
-          "Bedroom on upper level, Villa Pino Torinese — private quarters with serene atmosphere",
-          "Bathroom with modern finishes, Villa Pino Torinese — premium materials and natural tones",
-          "Detail of interior materials and textures, Villa Pino Torinese — colors inspired by the surrounding landscape",
-          "Garden view from interior, Villa Pino Torinese — seamless connection between inside and outside",
-          "Exterior facade of the four-level villa, Pino Torinese — contemporary residential architecture in Piedmont"
+          "Living room with pass-through fireplace, Villa Pino Torinese - natural light and garden views",
+          "Open-plan kitchen and living area, Villa Pino Torinese - visual continuity between spaces",
+          "Ground floor living space, Villa Pino Torinese - fireplace as central design element",
+          "Interior view with natural light filtering through garden, Villa Pino Torinese - indoor-outdoor dialogue",
+          "Dining area with contemporary furnishings, Villa Pino Torinese - landscape-inspired color palette",
+          "Staircase connecting four levels, Villa Pino Torinese - architectural continuity and flow",
+          "Bedroom on upper level, Villa Pino Torinese - private quarters with serene atmosphere",
+          "Bathroom with modern finishes, Villa Pino Torinese - premium materials and natural tones",
+          "Detail of interior materials and textures, Villa Pino Torinese - colors inspired by the surrounding landscape",
+          "Garden view from interior, Villa Pino Torinese - seamless connection between inside and outside",
+          "Exterior facade of the four-level villa, Pino Torinese - contemporary residential architecture in Piedmont"
         ]
       },
       "appartamento-corso-valdocco": {
         "title": "Apartment Corso Valdocco",
         "description": "A panoramic residence in the heart of Turin, overlooking the rooftops and church bell towers of the city. The intervention involved a complete renovation, enhancing the generous glazed surfaces that ensure intense and constant luminosity throughout the day. The kitchen was designed with a semi-transparent sliding partition connecting it to the living room, creating a continuous dialogue between the spaces. An environment conceived to accommodate the owner's principal passion, without sacrificing elegance or functionality. The living room is configured as a welcoming setting, ideal for entertaining guests and for enjoying the evocative panorama over the city.",
         "alts": [
-          "Panoramic living room overlooking Turin rooftops, Apartment Corso Valdocco — city skyline views",
-          "Kitchen with semi-transparent sliding partition, Apartment Corso Valdocco — open-plan design",
-          "Living area with large windows, Apartment Corso Valdocco — natural light flooding the interior",
-          "Dining space with views of Turin bell towers, Apartment Corso Valdocco — elegant urban living",
-          "Detail of sliding partition between kitchen and living room, Apartment Corso Valdocco — functional elegance",
-          "Interior view with panoramic glazing, Apartment Corso Valdocco — city panorama as backdrop",
-          "Welcoming reception area, Apartment Corso Valdocco — designed for entertaining",
-          "Renovated kitchen with contemporary finishes, Apartment Corso Valdocco — complete transformation",
-          "Bedroom with refined lighting design, Apartment Corso Valdocco — serene private quarters",
-          "Bathroom with modern ceramic finishes, Apartment Corso Valdocco — full renovation in Turin",
-          "Hallway with design details, Apartment Corso Valdocco — cohesive interior throughout",
-          "Overall interior view, Apartment Corso Valdocco — panoramic penthouse renovation in central Turin"
+          "Panoramic living room overlooking Turin rooftops, Apartment Corso Valdocco - city skyline views",
+          "Kitchen with semi-transparent sliding partition, Apartment Corso Valdocco - open-plan design",
+          "Living area with large windows, Apartment Corso Valdocco - natural light flooding the interior",
+          "Dining space with views of Turin bell towers, Apartment Corso Valdocco - elegant urban living",
+          "Detail of sliding partition between kitchen and living room, Apartment Corso Valdocco - functional elegance",
+          "Interior view with panoramic glazing, Apartment Corso Valdocco - city panorama as backdrop",
+          "Welcoming reception area, Apartment Corso Valdocco - designed for entertaining",
+          "Renovated kitchen with contemporary finishes, Apartment Corso Valdocco - complete transformation",
+          "Bedroom with refined lighting design, Apartment Corso Valdocco - serene private quarters",
+          "Bathroom with modern ceramic finishes, Apartment Corso Valdocco - full renovation in Turin",
+          "Hallway with design details, Apartment Corso Valdocco - cohesive interior throughout",
+          "Overall interior view, Apartment Corso Valdocco - panoramic penthouse renovation in central Turin"
         ]
       },
       "appartamento-via-porta-palatina": {
         "title": "Apartment Via Porta Palatina",
         "description": "An elegant late-seventeenth-century apartment in the heart of Turin, with dual exposure onto two of the city's historic avenues. The tall coffered ceilings, present throughout every room, guided the design choices: in the bathroom and corridor, targeted lowered sections were introduced to accommodate the ducted air conditioning system, integrated with discretion into the historic context. Thanks to the skilled work of the parquet craftsmen, the original flooring was salvaged, mended with new planks, and extended seamlessly throughout the entire residence, restoring continuity and material richness to the spaces. Light is the protagonist of the generous salon, enhanced by four French doors opening onto balconies. Particular care was devoted to the study of artificial lighting, carefully calibrated to dialogue with the dark tonality of the timber ceiling and to ensure visual balance and comfort.",
         "alts": [
-          "Grand salon with coffered ceilings and four French doors, Apartment Corso Francia Turin — historic elegance and natural light",
-          "Restored original parquet flooring detail, Apartment Corso Francia — seventeenth-century craftsmanship preserved",
-          "Living room with balcony doors and timber ceiling, Apartment Corso Francia — light as design protagonist",
-          "Hallway with integrated ducted air conditioning, Apartment Corso Francia — discreet modern systems in historic setting",
-          "Kitchen with coffered ceiling and refined finishes, Apartment Corso Francia — heritage meets contemporary function",
-          "Bedroom with restored wooden flooring, Apartment Corso Francia — seamless material continuity",
-          "Bathroom with lowered ceiling detail, Apartment Corso Francia — climate system integrated into historic architecture",
-          "Artificial lighting design under dark timber ceiling, Apartment Corso Francia — calibrated illumination for visual comfort",
-          "Detail of parquet restoration with new planks, Apartment Corso Francia — expert woodwork and conservation",
-          "View along historic avenue from balcony, Apartment Corso Francia — dual exposure in central Turin",
-          "Entrance hall with original flooring extended throughout, Apartment Corso Francia — continuity and material richness",
-          "Coffered ceiling close-up with designed lighting, Apartment Corso Francia — dialogue between wood and light",
-          "Study area with historic architectural details, Apartment Corso Francia — late-seventeenth-century character",
-          "Transition space between rooms, Apartment Corso Francia — cohesive renovation of heritage apartment",
-          "Overall interior view, Apartment Corso Francia — award-worthy restoration of historic Turin residence"
+          "Grand salon with coffered ceilings and four French doors, Apartment Corso Francia Turin - historic elegance and natural light",
+          "Restored original parquet flooring detail, Apartment Corso Francia - seventeenth-century craftsmanship preserved",
+          "Living room with balcony doors and timber ceiling, Apartment Corso Francia - light as design protagonist",
+          "Hallway with integrated ducted air conditioning, Apartment Corso Francia - discreet modern systems in historic setting",
+          "Kitchen with coffered ceiling and refined finishes, Apartment Corso Francia - heritage meets contemporary function",
+          "Bedroom with restored wooden flooring, Apartment Corso Francia - seamless material continuity",
+          "Bathroom with lowered ceiling detail, Apartment Corso Francia - climate system integrated into historic architecture",
+          "Artificial lighting design under dark timber ceiling, Apartment Corso Francia - calibrated illumination for visual comfort",
+          "Detail of parquet restoration with new planks, Apartment Corso Francia - expert woodwork and conservation",
+          "View along historic avenue from balcony, Apartment Corso Francia - dual exposure in central Turin",
+          "Entrance hall with original flooring extended throughout, Apartment Corso Francia - continuity and material richness",
+          "Coffered ceiling close-up with designed lighting, Apartment Corso Francia - dialogue between wood and light",
+          "Study area with historic architectural details, Apartment Corso Francia - late-seventeenth-century character",
+          "Transition space between rooms, Apartment Corso Francia - cohesive renovation of heritage apartment",
+          "Overall interior view, Apartment Corso Francia - award-worthy restoration of historic Turin residence"
         ]
       },
       "appartamento-corso-francia": {
         "title": "Apartment Corso Francia",
         "description": "A panoramic apartment situated on an upper floor of a recently constructed building, characterized by a strong visual relationship with the surrounding landscape. The design favored the creation of a generous open space dedicated to the living area, where kitchen and sitting room converse harmoniously with the entrance and study. The rooms, while maintaining their own functional identity, are conceived to offer a visual continuity that extends all the way to the profile of the Alpine arc, framed by the large glazed surfaces. The kitchen echoes, in its materials and finishes, the dominant colors of the furnishings, contributing to a balanced and coherent whole. The design choices prioritized linearity, luminosity, and formal clarity, elevating natural light and the panorama as central elements of the living experience.",
         "alts": [
-          "Panoramic open-plan living area with Alpine views, Apartment Via Porta Palatina Turin — expansive glazing and mountain skyline",
-          "Kitchen with coordinated materials and finishes, Apartment Via Porta Palatina — balanced design in contemporary apartment",
-          "Living room with full-height sliding doors, Apartment Via Porta Palatina — fluid spatial perception and verticality",
-          "Entrance hall with original marble flooring and Verde Alpi border, Apartment Via Porta Palatina — preserved heritage detail"
+          "Panoramic open-plan living area with Alpine views, Apartment Via Porta Palatina Turin - expansive glazing and mountain skyline",
+          "Kitchen with coordinated materials and finishes, Apartment Via Porta Palatina - balanced design in contemporary apartment",
+          "Living room with full-height sliding doors, Apartment Via Porta Palatina - fluid spatial perception and verticality",
+          "Entrance hall with original marble flooring and Verde Alpi border, Apartment Via Porta Palatina - preserved heritage detail"
         ]
       },
       "appartamento-corso-agnelli": {
         "title": "Apartment Corso Agnelli",
         "description": "This apartment is located on the eighth floor of a nineteen-seventies building and is characterized by a generous terrace and large east-facing glazed openings that afford a pleasant luminosity during the morning hours. To meet the owners' needs, the original separate kitchen was removed and a single living environment was created, incorporating a kitchenette and dining area directly accessible from the entrance. The new spatial configuration privileges openness and conviviality, making the living zone the heart of the home. Through targeted plasterboard ceiling drops, the various functions were visually separated without interrupting the continuity of the space. The false ceiling interventions also enabled the integration of a ducted air conditioning system, with diffusers distributed throughout every room, ensuring comfort and aesthetic uniformity.",
         "alts": [
-          "Open-plan living area with kitchenette, Apartment Corso Agnelli Turin — unified living space on the eighth floor",
-          "East-facing windows with morning light, Apartment Corso Agnelli — generous glazing and terrace views",
-          "Ceiling detail with plasterboard drops, Apartment Corso Agnelli — zoning without partitions and integrated climate system",
-          "Dining area in renovated open space, Apartment Corso Agnelli Turin — contemporary conviviality and functional design"
+          "Open-plan living area with kitchenette, Apartment Corso Agnelli Turin - unified living space on the eighth floor",
+          "East-facing windows with morning light, Apartment Corso Agnelli - generous glazing and terrace views",
+          "Ceiling detail with plasterboard drops, Apartment Corso Agnelli - zoning without partitions and integrated climate system",
+          "Dining area in renovated open space, Apartment Corso Agnelli Turin - contemporary conviviality and functional design"
         ]
       },
       "bilocale-via-thonon": {
         "title": "Studio Apartment Via Thonon",
         "description": "A renovation of a compact 35-square-meter studio apartment, situated on the ground floor with access from the inner courtyard. The partially shaded position made a careful study of the artificial lighting system essential, conceived as a key element of the project. The vaulted ceiling was lowered above the kitchen area, creating a dual lighting effect: focused, functional illumination in the working zone and softer, more diffuse light toward the living area, thus amplifying the perception of space. In the bathroom, of extremely limited dimensions, every element was custom designed: a shower with an irregular geometry, a trapezoidal vanity top with an oval basin, and a WC with a hand shower. A meticulous work of interlocking forms and proportions made it possible to optimize every available centimeter. A small space, yet fully functional, where compactness and comfort coexist in equilibrium.",
         "alts": [
-          "Vaulted living area with dual lighting design, Studio Apartment Via Thonon Turin — maximized spatial perception in 35 sqm",
-          "Compact kitchen under lowered vault, Studio Apartment Via Thonon — focused functional illumination",
-          "Custom-designed bathroom with irregular shower, Studio Apartment Via Thonon — bespoke solutions for compact dimensions",
-          "Living zone with diffuse ambient lighting, Studio Apartment Via Thonon Turin — elegant ground-floor renovation",
-          "Interior detail showing vaulted ceiling and lighting, Studio Apartment Via Thonon — compactness and comfort in equilibrium"
+          "Vaulted living area with dual lighting design, Studio Apartment Via Thonon Turin - maximized spatial perception in 35 sqm",
+          "Compact kitchen under lowered vault, Studio Apartment Via Thonon - focused functional illumination",
+          "Custom-designed bathroom with irregular shower, Studio Apartment Via Thonon - bespoke solutions for compact dimensions",
+          "Living zone with diffuse ambient lighting, Studio Apartment Via Thonon Turin - elegant ground-floor renovation",
+          "Interior detail showing vaulted ceiling and lighting, Studio Apartment Via Thonon - compactness and comfort in equilibrium"
         ]
       },
       "casa-di-campagna-gabiano": {
         "title": "Country House Gabiano",
-        "description": "An old country house, uninhabited for decades and in need of significant structural rehabilitation. It was necessary to undertake the consolidation of the building, including the reconstruction of the roof and the reinforcement of the floor slabs, restoring safety and stability to the entire architectural organism. Despite its complete functional transformation, the distinctive features of the original house were preserved and enhanced: the barrel vaults, the small vaulted ceilings with steel beams, and the reinforcement tie rods — elements that narrate the history of the building and define its material identity. Distributed over two levels with a garden at the front, the residence was reimagined to maintain the authentic character of a country house while combining it with a functional organization of spaces and contemporary comfort. Particular attention was devoted to conviviality, creating welcoming and flexible environments capable of hosting the owners' many friends.",
+        "description": "An old country house, uninhabited for decades and in need of significant structural rehabilitation. It was necessary to undertake the consolidation of the building, including the reconstruction of the roof and the reinforcement of the floor slabs, restoring safety and stability to the entire architectural organism. Despite its complete functional transformation, the distinctive features of the original house were preserved and enhanced: the barrel vaults, the small vaulted ceilings with steel beams, and the reinforcement tie rods - elements that narrate the history of the building and define its material identity. Distributed over two levels with a garden at the front, the residence was reimagined to maintain the authentic character of a country house while combining it with a functional organization of spaces and contemporary comfort. Particular attention was devoted to conviviality, creating welcoming and flexible environments capable of hosting the owners' many friends.",
         "alts": [
-          "Restored barrel vault interior, Country House Gabiano — historic structural elements preserved in renovation",
-          "Living area with original steel beams and vaulted ceiling, Country House Gabiano — material identity and contemporary comfort",
-          "Kitchen in renovated country house, Gabiano Piedmont — authentic rural character with modern functionality",
-          "Convivial dining space, Country House Gabiano — welcoming environment designed for gathering",
-          "Exterior with front garden, Country House Gabiano — two-level rural residence after structural rehabilitation"
+          "Restored barrel vault interior, Country House Gabiano - historic structural elements preserved in renovation",
+          "Living area with original steel beams and vaulted ceiling, Country House Gabiano - material identity and contemporary comfort",
+          "Kitchen in renovated country house, Gabiano Piedmont - authentic rural character with modern functionality",
+          "Convivial dining space, Country House Gabiano - welcoming environment designed for gathering",
+          "Exterior with front garden, Country House Gabiano - two-level rural residence after structural rehabilitation"
         ]
       },
       "studio-privato": {
         "title": "Private Office",
         "description": "The intervention focused on the creation of a new connecting staircase between the two floors designated as offices, bringing into relation spaces characterized by different pre-existing conditions. The staircase, with a steel structure and timber treads, is defined by a handrail that follows the profile of the steps and integrates an LED system, combining functionality with formal essentiality. Along the staircase, a cluster suspension lighting arrangement welcomes the client and contributes to perceptually reducing the height of the existing ceiling, making the environment more intimate and representative.",
         "alts": [
-          "Steel and timber staircase with LED handrail, Private Office Turin — functional design connecting two office floors",
-          "Cluster suspension lighting along staircase, Private Office Turin — intimate atmosphere and perceptual ceiling reduction"
+          "Steel and timber staircase with LED handrail, Private Office Turin - functional design connecting two office floors",
+          "Cluster suspension lighting along staircase, Private Office Turin - intimate atmosphere and perceptual ceiling reduction"
         ]
       },
       "negozio-torino": {
         "title": "Shop Turin",
         "description": "The intervention concerned the expansion of a shop in Turin, with the creation of a new reception area and a dedicated coat storage system equipped with a rotating garment rack. The project explored variations in floor level and ceiling inclinations, producing a dynamic interplay of heights. A pronounced ceiling drop marks the transition between the entrance-reception zone and the operational area, clearly defining the functions and guiding the client through the interior journey.",
         "alts": [
-          "New reception area with dynamic ceiling design, Shop Turin — commercial expansion with architectural character",
-          "Rotating coat storage system, Shop Turin — innovative functional solution in retail environment",
-          "Transition between reception and operational zones, Shop Turin — pronounced ceiling drop defining spatial functions",
-          "Interior view with varied ceiling heights, Shop Turin — dynamic interplay of levels and inclinations",
-          "Entrance area guiding the client journey, Shop Turin — commercial interior design by Salamano & Ferro",
-          "Overall view of expanded commercial space, Shop Turin — retail renovation with architectural depth"
+          "New reception area with dynamic ceiling design, Shop Turin - commercial expansion with architectural character",
+          "Rotating coat storage system, Shop Turin - innovative functional solution in retail environment",
+          "Transition between reception and operational zones, Shop Turin - pronounced ceiling drop defining spatial functions",
+          "Interior view with varied ceiling heights, Shop Turin - dynamic interplay of levels and inclinations",
+          "Entrance area guiding the client journey, Shop Turin - commercial interior design by Salamano & Ferro",
+          "Overall view of expanded commercial space, Shop Turin - retail renovation with architectural depth"
         ]
       },
       "stabilimento-industriale-govone": {
         "title": "Industrial Facility Govone",
-        "description": "The expansion project for the industrial facility involved the construction of approximately 6,800 square meters of new covered area, in continuity with the existing building. The intervention is situated on a 17,000-square-meter lot, part of a larger sector originally consisting of a flat green area. A portion was allocated to public green space and parking, integrating the productive expansion with amenities serving the community. The focal point of the intervention was the creation of an overhead pallet transport system, connected to the new automated warehouse — a strategic element for streamlining the logistics cycle. The new spaces were designed with the objective of optimizing production processes, with particular attention to safety and functionality. The self-supporting warehouse, clad in insulated sheet-metal panels, was deliberately differentiated to visually highlight the specificity of the activities housed within and to render the overall organization of the industrial complex legible.",
+        "description": "The expansion project for the industrial facility involved the construction of approximately 6,800 square meters of new covered area, in continuity with the existing building. The intervention is situated on a 17,000-square-meter lot, part of a larger sector originally consisting of a flat green area. A portion was allocated to public green space and parking, integrating the productive expansion with amenities serving the community. The focal point of the intervention was the creation of an overhead pallet transport system, connected to the new automated warehouse - a strategic element for streamlining the logistics cycle. The new spaces were designed with the objective of optimizing production processes, with particular attention to safety and functionality. The self-supporting warehouse, clad in insulated sheet-metal panels, was deliberately differentiated to visually highlight the specificity of the activities housed within and to render the overall organization of the industrial complex legible.",
         "alts": [
-          "Aerial view of industrial expansion, Industrial Facility Govone — 6,800 sqm new covered area integrated with existing building",
-          "Automated warehouse with insulated cladding, Industrial Facility Govone — self-supporting structure differentiated by function",
-          "Overhead pallet transport system, Industrial Facility Govone — strategic logistics infrastructure",
-          "Production floor with optimized layout, Industrial Facility Govone — safety and functionality in industrial design",
-          "Exterior facade of expanded facility, Industrial Facility Govone — continuity between new and existing volumes",
-          "Public green space and parking area, Industrial Facility Govone — community amenities integrated with industrial expansion",
-          "Interior of new warehouse space, Industrial Facility Govone — streamlined logistics cycle design",
-          "Detail of insulated sheet-metal panel cladding, Industrial Facility Govone — visual differentiation of building functions",
-          "Connection between existing and new structures, Industrial Facility Govone — cohesive industrial complex on 17,000 sqm lot",
-          "Loading and distribution area, Industrial Facility Govone — efficient production process flow",
-          "Structural detail of self-supporting warehouse, Industrial Facility Govone — contemporary industrial architecture",
-          "Site plan showing overall facility organization, Industrial Facility Govone — legible layout of the industrial complex",
-          "Overview of completed industrial expansion, Industrial Facility Govone — Salamano & Ferro Architects project in Piedmont"
+          "Aerial view of industrial expansion, Industrial Facility Govone - 6,800 sqm new covered area integrated with existing building",
+          "Automated warehouse with insulated cladding, Industrial Facility Govone - self-supporting structure differentiated by function",
+          "Overhead pallet transport system, Industrial Facility Govone - strategic logistics infrastructure",
+          "Production floor with optimized layout, Industrial Facility Govone - safety and functionality in industrial design",
+          "Exterior facade of expanded facility, Industrial Facility Govone - continuity between new and existing volumes",
+          "Public green space and parking area, Industrial Facility Govone - community amenities integrated with industrial expansion",
+          "Interior of new warehouse space, Industrial Facility Govone - streamlined logistics cycle design",
+          "Detail of insulated sheet-metal panel cladding, Industrial Facility Govone - visual differentiation of building functions",
+          "Connection between existing and new structures, Industrial Facility Govone - cohesive industrial complex on 17,000 sqm lot",
+          "Loading and distribution area, Industrial Facility Govone - efficient production process flow",
+          "Structural detail of self-supporting warehouse, Industrial Facility Govone - contemporary industrial architecture",
+          "Site plan showing overall facility organization, Industrial Facility Govone - legible layout of the industrial complex",
+          "Overview of completed industrial expansion, Industrial Facility Govone - Salamano & Ferro Architects project in Piedmont"
         ]
       }
     }
@@ -184,13 +185,31 @@
   "contact": {
     "sectionTitle": "Contact",
     "heading": "Let's talk about your project",
-    "description": "For consultations, site visits, or simply to get to know us, write to us.",
+    "description": "For consultations, site visits, or simply to get to know us, fill out the form or write to us directly.",
     "email": "interni2architettura@gmail.com",
-    "cta": "Write to us"
+    "cta": "Write to us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "messagePlaceholder": "Tell us about your project...",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent! We'll get back to you soon.",
+      "error": "An error occurred. Please try again or email us directly.",
+      "nameError": "Name must be at least 2 characters",
+      "emailError": "Please enter a valid email address",
+      "messageError": "Message must be at least 10 characters",
+      "privacyLabel": "I have read and accept the",
+      "privacyLink": "privacy policy"
+    }
   },
   "footer": {
     "copyright": "© {year} Salamano & Ferro Architects. All rights reserved.",
-    "poweredBy": "Powered by"
+    "poweredBy": "Powered by",
+    "privacy": "Privacy Policy"
   },
   "notFound": {
     "title": "404",
@@ -205,6 +224,48 @@
   "common": {
     "loading": "Loading...",
     "backToHome": "Back to home"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: March 2026",
+    "intro": "This privacy policy describes how the personal data of users visiting interniarchitettura.it is processed, in accordance with EU Regulation 2016/679 (GDPR).",
+    "controller": {
+      "title": "Data Controller",
+      "content": "The Data Controller is Ferro & Salamano Architetti studio, based in Turin, Italy. For any requests regarding personal data processing, please write to interni2architettura@gmail.com."
+    },
+    "dataCollected": {
+      "title": "Data Collected",
+      "content": "Through the contact form on this website, we collect the following personal data voluntarily provided by the user:",
+      "items": ["Name", "Email address", "Message content"]
+    },
+    "purpose": {
+      "title": "Purpose of Processing",
+      "content": "The data collected through the contact form is used exclusively to respond to user inquiries and to provide information about the studio's services."
+    },
+    "legalBasis": {
+      "title": "Legal Basis",
+      "content": "Data processing is based on the user's consent, expressed through the voluntary submission of the contact form (Art. 6, par. 1, letter a of GDPR)."
+    },
+    "retention": {
+      "title": "Data Retention",
+      "content": "Personal data will be retained for the time necessary to respond to the request and in any case no longer than 12 months from the last contact, unless required by law."
+    },
+    "rights": {
+      "title": "User Rights",
+      "content": "Users have the right to access their data, request its rectification or deletion, restrict processing, object to processing, and request data portability. To exercise these rights, simply send a communication to interni2architettura@gmail.com."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content": "This website uses only technical cookies necessary for the site's operation. No profiling or third-party advertising cookies are used."
+    },
+    "thirdParties": {
+      "title": "Third-Party Services",
+      "content": "The website uses the following third-party services:",
+      "items": [
+        "Vercel (hosting and analytics)",
+        "Resend (email delivery from contact form)"
+      ]
+    }
   },
   "meta": {
     "home": {

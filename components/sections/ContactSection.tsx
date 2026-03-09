@@ -1,48 +1,16 @@
 'use client';
 
-import { useRef } from 'react';
-
 import { useTranslations } from 'next-intl';
 
 import AnimatedText from '@/components/ui/AnimatedText';
+import ContactForm from '@/components/ui/ContactForm';
 import RevealOnScroll from '@/components/ui/RevealOnScroll';
-import { SplitText, gsap, useGSAP } from '@/lib/gsap';
 
 export default function ContactSection() {
   const t = useTranslations('contact');
-  const emailRef = useRef<HTMLAnchorElement>(null);
-  const sectionRef = useRef<HTMLElement>(null);
-
-  useGSAP(
-    () => {
-      if (!emailRef.current) return;
-
-      const split = SplitText.create(emailRef.current, {
-        type: 'chars',
-        mask: 'chars',
-      });
-
-      gsap.from(split.chars, {
-        y: '100%',
-        duration: 0.8,
-        stagger: 0.02,
-        ease: 'power4.out',
-        scrollTrigger: {
-          trigger: emailRef.current,
-          start: 'top 85%',
-          toggleActions: 'play none none none',
-        },
-      });
-    },
-    { scope: sectionRef }
-  );
 
   return (
-    <section
-      ref={sectionRef}
-      id='contatti'
-      className='bg-foreground py-24 md:py-40'
-    >
+    <section id='contatti' className='bg-foreground py-24 md:py-40'>
       <div className='container text-center'>
         <AnimatedText
           as='h2'
@@ -59,18 +27,18 @@ export default function ContactSection() {
           </p>
         </RevealOnScroll>
 
-        <div className='overflow-hidden'>
+        <RevealOnScroll delay={0.3}>
+          <ContactForm />
+        </RevealOnScroll>
+
+        <RevealOnScroll delay={0.4} className='mt-16'>
+          <div className='mx-auto h-px w-16 bg-primary' />
           <a
-            ref={emailRef}
             href={`mailto:${t('email')}`}
-            className='inline-block font-title text-[5vw] font-light tracking-wider text-background transition-colors duration-300 hover:text-primary md:text-[3vw]'
+            className='mt-6 inline-block font-text text-sm font-light tracking-wider text-gray-500 transition-colors duration-300 hover:text-background'
           >
             {t('email')}
           </a>
-        </div>
-
-        <RevealOnScroll delay={0.4} className='mt-12'>
-          <div className='mx-auto h-px w-16 bg-primary' />
         </RevealOnScroll>
       </div>
     </section>

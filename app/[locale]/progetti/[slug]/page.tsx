@@ -78,6 +78,24 @@ export default async function ProjectPage({
 
   const projectDescription = t(`items.${slug}.description`);
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: `${siteUrl}/${locale}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: projectTitle,
+      },
+    ],
+  };
+
   const projectSchema = {
     '@context': 'https://schema.org',
     '@type': 'CreativeWork',
@@ -90,7 +108,7 @@ export default async function ProjectPage({
     },
     creator: {
       '@type': 'Organization',
-      name: 'Salamano & Ferro Architetti',
+      name: 'Ferro & Salamano Architetti',
       url: siteUrl,
     },
     genre: projectCategory,
@@ -100,6 +118,7 @@ export default async function ProjectPage({
 
   return (
     <>
+      <JsonLd data={breadcrumbSchema} />
       <JsonLd data={projectSchema} />
       <Navbar glass />
       <main>

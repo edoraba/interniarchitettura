@@ -8,7 +8,8 @@
   "hero": {
     "title": "Progettazione Architettonica & Arredo di Interni",
     "subtitle": "Simonetta Salamano e Paola Ferro - Architetti",
-    "scroll": "Scorri"
+    "scroll": "Scorri",
+    "cta": "Scopri i progetti"
   },
   "about": {
     "sectionTitle": "Chi Siamo",
@@ -46,137 +47,137 @@
         "title": "Villa Pino Torinese",
         "description": "Villa indipendente articolata su quattro livelli, caratterizzata da una forte continuità visiva tra gli spazi. Il piano terreno si sviluppa attorno a un camino passante, fulcro dell'area soggiorno–cucina e elemento centrale dell'intero progetto, capace di definire e al tempo stesso connettere gli ambienti. La luce naturale è parte integrante dell'abitazione: filtra da tutti gli affacci attraverso la vegetazione del giardino, creando un dialogo costante tra interno ed esterno. La zona notte, più riservata, si distribuisce sui due livelli superiori, garantendo privacy e tranquillità. Negli interni sono stati ripresi i colori dell'ambiente circostante, rafforzando l'armonia con il paesaggio.",
         "alts": [
-          "Soggiorno con camino passante, Villa Pino Torinese — luce naturale e vegetazione",
-          "Zona giorno open space, Villa Pino Torinese — continuità visiva tra gli ambienti",
-          "Cucina con vista sul giardino, Villa Pino Torinese — dialogo tra interno ed esterno",
-          "Scala interna tra i livelli, Villa Pino Torinese — collegamento verticale e luce naturale",
-          "Camera da letto al piano superiore, Villa Pino Torinese — zona notte riservata",
-          "Bagno con finiture contemporanee, Villa Pino Torinese — materiali pregiati e luce diffusa",
-          "Dettaglio camino passante nel soggiorno, Villa Pino Torinese — fulcro del progetto architettonico",
-          "Vista esterna della villa, Pino Torinese — architettura su quattro livelli immersa nel verde",
-          "Ingresso con giardino, Villa Pino Torinese — armonia tra paesaggio e interni",
-          "Zona pranzo con luce filtrata dalla vegetazione, Villa Pino Torinese — colori naturali negli interni",
-          "Panorama dal soggiorno, Villa Pino Torinese — grandi aperture e continuità visiva con il paesaggio"
+          "Soggiorno con camino passante, Villa Pino Torinese - luce naturale e vegetazione",
+          "Zona giorno open space, Villa Pino Torinese - continuità visiva tra gli ambienti",
+          "Cucina con vista sul giardino, Villa Pino Torinese - dialogo tra interno ed esterno",
+          "Scala interna tra i livelli, Villa Pino Torinese - collegamento verticale e luce naturale",
+          "Camera da letto al piano superiore, Villa Pino Torinese - zona notte riservata",
+          "Bagno con finiture contemporanee, Villa Pino Torinese - materiali pregiati e luce diffusa",
+          "Dettaglio camino passante nel soggiorno, Villa Pino Torinese - fulcro del progetto architettonico",
+          "Vista esterna della villa, Pino Torinese - architettura su quattro livelli immersa nel verde",
+          "Ingresso con giardino, Villa Pino Torinese - armonia tra paesaggio e interni",
+          "Zona pranzo con luce filtrata dalla vegetazione, Villa Pino Torinese - colori naturali negli interni",
+          "Panorama dal soggiorno, Villa Pino Torinese - grandi aperture e continuità visiva con il paesaggio"
         ]
       },
       "appartamento-corso-valdocco": {
         "title": "Appartamento Corso Valdocco",
         "description": "Un panoramico alloggio nel cuore di Torino domina i tetti e i campanili delle chiese cittadine. L'intervento ha previsto una ristrutturazione totale, valorizzando le ampie vetrate che garantiscono una luminosità intensa e costante durante tutto l'arco della giornata. La cucina è stata progettata con una parete scorrevole semitrasparente che la collega al soggiorno, creando un dialogo continuo tra gli ambienti. Uno spazio pensato per rispondere al principale hobby della proprietaria, senza rinunciare a eleganza e funzionalità. Il soggiorno si configura come un ambiente accogliente, ideale per ricevere ospiti e per godere del suggestivo panorama sulla città.",
         "alts": [
-          "Soggiorno panoramico con vista sui tetti di Torino, Appartamento Corso Valdocco — luminosità intensa dalle vetrate",
-          "Cucina con parete scorrevole semitrasparente, Appartamento Corso Valdocco Torino — dialogo tra cucina e soggiorno",
-          "Vista sui campanili di Torino dal soggiorno, Appartamento Corso Valdocco — panorama urbano",
-          "Zona living con arredi eleganti, Appartamento Corso Valdocco Torino — ristrutturazione totale",
-          "Dettaglio parete scorrevole tra cucina e soggiorno, Appartamento Corso Valdocco — continuità degli ambienti",
-          "Camera da letto con luce naturale, Appartamento Corso Valdocco Torino — ampie vetrate",
-          "Bagno ristrutturato con finiture moderne, Appartamento Corso Valdocco Torino — eleganza e funzionalità",
-          "Ingresso dell'appartamento ristrutturato, Corso Valdocco Torino — design contemporaneo",
-          "Area pranzo con vista panoramica, Appartamento Corso Valdocco — spazio accogliente per ospiti",
-          "Dettaglio cucina funzionale, Appartamento Corso Valdocco Torino — progetto su misura",
-          "Corridoio con illuminazione progettata, Appartamento Corso Valdocco — ristrutturazione completa",
-          "Vista d'insieme degli interni, Appartamento Corso Valdocco Torino — luminosità costante durante la giornata"
+          "Soggiorno panoramico con vista sui tetti di Torino, Appartamento Corso Valdocco - luminosità intensa dalle vetrate",
+          "Cucina con parete scorrevole semitrasparente, Appartamento Corso Valdocco Torino - dialogo tra cucina e soggiorno",
+          "Vista sui campanili di Torino dal soggiorno, Appartamento Corso Valdocco - panorama urbano",
+          "Zona living con arredi eleganti, Appartamento Corso Valdocco Torino - ristrutturazione totale",
+          "Dettaglio parete scorrevole tra cucina e soggiorno, Appartamento Corso Valdocco - continuità degli ambienti",
+          "Camera da letto con luce naturale, Appartamento Corso Valdocco Torino - ampie vetrate",
+          "Bagno ristrutturato con finiture moderne, Appartamento Corso Valdocco Torino - eleganza e funzionalità",
+          "Ingresso dell'appartamento ristrutturato, Corso Valdocco Torino - design contemporaneo",
+          "Area pranzo con vista panoramica, Appartamento Corso Valdocco - spazio accogliente per ospiti",
+          "Dettaglio cucina funzionale, Appartamento Corso Valdocco Torino - progetto su misura",
+          "Corridoio con illuminazione progettata, Appartamento Corso Valdocco - ristrutturazione completa",
+          "Vista d'insieme degli interni, Appartamento Corso Valdocco Torino - luminosità costante durante la giornata"
         ]
       },
       "appartamento-via-porta-palatina": {
         "title": "Appartamento Via Porta Palatina",
         "description": "Elegante appartamento di fine Seicento nel cuore di Torino, affacciato su due delle vie storiche della città. Gli alti soffitti a cassettoni, presenti in tutti gli ambienti, hanno guidato le scelte progettuali: nel bagno e nel corridoio si è intervenuti con un ribassamento mirato per consentire l'inserimento dell'impianto di condizionamento canalizzato, integrato con discrezione nel contesto storico. Grazie al sapiente lavoro dei palchettisti è stato possibile recuperare il pavimento originale, ricucito con nuove doghe ed esteso \"a lago\" in tutto l'alloggio, restituendo continuità e valore materico agli spazi. La luce è protagonista nell'ampio salone, valorizzato da quattro portefinestre balconate. Un'attenzione particolare è stata dedicata allo studio dell'illuminazione artificiale, calibrata con cura per dialogare con la tonalità scura del legno a soffitto e garantire equilibrio e comfort visivo.",
         "alts": [
-          "Salone con soffitti a cassettoni e portefinestre balconate, Appartamento Corso Francia Torino — luce naturale e legno storico",
-          "Pavimento originale recuperato con doghe a lago, Appartamento Corso Francia Torino — restauro materico",
-          "Corridoio con ribassamento per condizionamento canalizzato, Appartamento Corso Francia — integrazione impiantistica discreta",
-          "Bagno con controsoffitto e finiture contemporanee, Appartamento Corso Francia Torino — dialogo tra storico e moderno",
-          "Vista sulle vie storiche di Torino, Appartamento Corso Francia — affaccio su due strade",
-          "Dettaglio soffitto a cassettoni in legno scuro, Appartamento Corso Francia Torino — architettura di fine Seicento",
-          "Illuminazione artificiale calibrata nel salone, Appartamento Corso Francia — comfort visivo e atmosfera",
-          "Camera da letto con pavimento in legno originale, Appartamento Corso Francia Torino — continuità materica",
-          "Portefinestre balconate con luce naturale, Appartamento Corso Francia — ampio salone luminoso",
-          "Cucina con finiture eleganti, Appartamento Corso Francia Torino — ristrutturazione appartamento storico",
-          "Dettaglio restauro pavimento in legno, Appartamento Corso Francia — lavoro artigianale dei palchettisti",
-          "Zona ingresso con soffitti a cassettoni, Appartamento Corso Francia Torino — eleganza seicentesca",
-          "Studio dell'illuminazione nel corridoio, Appartamento Corso Francia — equilibrio tra luce artificiale e legno scuro",
-          "Vista d'insieme del salone principale, Appartamento Corso Francia Torino — quattro portefinestre e soffitti storici",
-          "Dettaglio arredi e materiali pregiati, Appartamento Corso Francia Torino — progetto di interior design nel centro storico"
+          "Salone con soffitti a cassettoni e portefinestre balconate, Appartamento Corso Francia Torino - luce naturale e legno storico",
+          "Pavimento originale recuperato con doghe a lago, Appartamento Corso Francia Torino - restauro materico",
+          "Corridoio con ribassamento per condizionamento canalizzato, Appartamento Corso Francia - integrazione impiantistica discreta",
+          "Bagno con controsoffitto e finiture contemporanee, Appartamento Corso Francia Torino - dialogo tra storico e moderno",
+          "Vista sulle vie storiche di Torino, Appartamento Corso Francia - affaccio su due strade",
+          "Dettaglio soffitto a cassettoni in legno scuro, Appartamento Corso Francia Torino - architettura di fine Seicento",
+          "Illuminazione artificiale calibrata nel salone, Appartamento Corso Francia - comfort visivo e atmosfera",
+          "Camera da letto con pavimento in legno originale, Appartamento Corso Francia Torino - continuità materica",
+          "Portefinestre balconate con luce naturale, Appartamento Corso Francia - ampio salone luminoso",
+          "Cucina con finiture eleganti, Appartamento Corso Francia Torino - ristrutturazione appartamento storico",
+          "Dettaglio restauro pavimento in legno, Appartamento Corso Francia - lavoro artigianale dei palchettisti",
+          "Zona ingresso con soffitti a cassettoni, Appartamento Corso Francia Torino - eleganza seicentesca",
+          "Studio dell'illuminazione nel corridoio, Appartamento Corso Francia - equilibrio tra luce artificiale e legno scuro",
+          "Vista d'insieme del salone principale, Appartamento Corso Francia Torino - quattro portefinestre e soffitti storici",
+          "Dettaglio arredi e materiali pregiati, Appartamento Corso Francia Torino - progetto di interior design nel centro storico"
         ]
       },
       "appartamento-corso-francia": {
         "title": "Appartamento Corso Francia",
         "description": "Appartamento panoramico situato a un piano alto di un edificio di recente costruzione, caratterizzato da una forte relazione visiva con il paesaggio circostante. Il progetto ha privilegiato la realizzazione di un ampio open space dedicato alla zona giorno, in cui cucina e soggiorno dialogano armoniosamente con l'ingresso e lo studio. Gli ambienti, pur mantenendo una propria identità funzionale, sono concepiti per offrire una continuità visiva che si estende fino al profilo dell'arco alpino, incorniciato dalle grandi vetrate. La cucina riprende, nei materiali e nelle finiture, i colori dominanti dell'arredo, contribuendo a creare un insieme equilibrato e coerente. Le scelte progettuali hanno privilegiato linearità, luminosità e pulizia formale, valorizzando la luce naturale e il panorama come elementi centrali dell'esperienza abitativa.",
         "alts": [
-          "Open space con vista sull'arco alpino, Appartamento Via Porta Palatina Torino — continuità visiva e grandi vetrate",
-          "Cucina integrata nel soggiorno, Appartamento Via Porta Palatina Torino — finiture coordinate e linearità formale",
-          "Ingresso con pavimento originale in marmo e bordatura Verde Alpi, Appartamento Via Porta Palatina — elemento identitario conservato",
-          "Porte scorrevoli a tutt'altezza e libreria nascosta, Appartamento Via Porta Palatina Torino — percezione fluida degli spazi"
+          "Open space con vista sull'arco alpino, Appartamento Via Porta Palatina Torino - continuità visiva e grandi vetrate",
+          "Cucina integrata nel soggiorno, Appartamento Via Porta Palatina Torino - finiture coordinate e linearità formale",
+          "Ingresso con pavimento originale in marmo e bordatura Verde Alpi, Appartamento Via Porta Palatina - elemento identitario conservato",
+          "Porte scorrevoli a tutt'altezza e libreria nascosta, Appartamento Via Porta Palatina Torino - percezione fluida degli spazi"
         ]
       },
       "appartamento-corso-agnelli": {
         "title": "Appartamento Corso Agnelli",
         "description": "Questo appartamento si trova all'ottavo piano di un edificio degli anni Settanta ed è caratterizzato da un ampio terrazzo e da grandi aperture vetrate rivolte a est, che garantiscono una piacevole luminosità nelle ore del mattino. Per rispondere alle esigenze dei proprietari, è stato eliminato il locale cucina originario e realizzato un unico ambiente living con angolo cottura e zona pranzo, direttamente accessibile dall'ingresso. La nuova configurazione spaziale privilegia apertura e convivialità, rendendo la zona giorno il fulcro della casa. Attraverso mirati abbassamenti in cartongesso, le diverse funzioni sono state separate visivamente senza interrompere la continuità dello spazio. Gli interventi sui controsoffitti hanno inoltre consentito l'integrazione di un impianto di condizionamento canalizzato, con bocchette distribuite in tutti gli ambienti, garantendo comfort e uniformità estetica.",
         "alts": [
-          "Living open space con angolo cottura, Appartamento Corso Agnelli Torino — ambiente unico con abbassamenti in cartongesso",
-          "Zona pranzo con aperture vetrate a est, Appartamento Corso Agnelli Torino — luminosità mattutina all'ottavo piano",
-          "Terrazzo panoramico con vista sulla città, Appartamento Corso Agnelli Torino — grandi vetrate e luce naturale",
-          "Dettaglio controsoffitti con condizionamento canalizzato, Appartamento Corso Agnelli — comfort e uniformità estetica"
+          "Living open space con angolo cottura, Appartamento Corso Agnelli Torino - ambiente unico con abbassamenti in cartongesso",
+          "Zona pranzo con aperture vetrate a est, Appartamento Corso Agnelli Torino - luminosità mattutina all'ottavo piano",
+          "Terrazzo panoramico con vista sulla città, Appartamento Corso Agnelli Torino - grandi vetrate e luce naturale",
+          "Dettaglio controsoffitti con condizionamento canalizzato, Appartamento Corso Agnelli - comfort e uniformità estetica"
         ]
       },
       "bilocale-via-thonon": {
         "title": "Bilocale Via Thonon",
         "description": "Intervento di riqualificazione di un minialloggio di 35 mq, situato al piano terreno con accesso dall'interno cortile. La posizione, parzialmente in ombra, ha reso fondamentale uno studio attento del sistema di illuminazione artificiale, concepito come elemento chiave del progetto. Il soffitto a volta è stato ribassato in corrispondenza della cucina, creando un doppio effetto luminoso: luce puntuale e funzionale nell'area operativa, luce più diffusa e morbida verso la zona soggiorno, così da amplificare la percezione dello spazio. Nel bagno, dalle dimensioni estremamente contenute, ogni elemento è stato progettato su misura: una doccia dalla geometria irregolare, un piano lavabo trapezoidale con ciotola ovale e wc con doccetta. Un attento lavoro di incastri e proporzioni ha permesso di ottimizzare ogni centimetro disponibile. Uno spazio piccolo, ma completamente funzionale, dove compattezza e comfort convivono in equilibrio.",
         "alts": [
-          "Soggiorno con soffitto a volta e illuminazione diffusa, Bilocale Via Thonon Torino — riqualificazione minialloggio 35 mq",
-          "Cucina con ribassamento e luce puntuale, Bilocale Via Thonon Torino — doppio effetto luminoso sotto la volta",
-          "Bagno su misura con doccia irregolare e lavabo trapezoidale, Bilocale Via Thonon Torino — ottimizzazione dello spazio",
-          "Zona living con illuminazione artificiale progettata, Bilocale Via Thonon — percezione ampliata dello spazio",
-          "Dettaglio arredi compatti e funzionali, Bilocale Via Thonon Torino — equilibrio tra compattezza e comfort"
+          "Soggiorno con soffitto a volta e illuminazione diffusa, Bilocale Via Thonon Torino - riqualificazione minialloggio 35 mq",
+          "Cucina con ribassamento e luce puntuale, Bilocale Via Thonon Torino - doppio effetto luminoso sotto la volta",
+          "Bagno su misura con doccia irregolare e lavabo trapezoidale, Bilocale Via Thonon Torino - ottimizzazione dello spazio",
+          "Zona living con illuminazione artificiale progettata, Bilocale Via Thonon - percezione ampliata dello spazio",
+          "Dettaglio arredi compatti e funzionali, Bilocale Via Thonon Torino - equilibrio tra compattezza e comfort"
         ]
       },
       "casa-di-campagna-gabiano": {
         "title": "Casa di Campagna Gabiano",
         "description": "Ci troviamo in una vecchia casa di campagna, disabitata da decenni e bisognosa di un importante intervento di recupero strutturale. È stato necessario operare sul consolidamento dell'edificio, con il rifacimento della copertura e il rinforzo dei solai, restituendo sicurezza e stabilità all'intero organismo architettonico. Pur nella sua completa rifunzionalizzazione, sono stati preservati e valorizzati i segni distintivi della casa originaria: le volte a botte, i soffitti a voltini con travi in acciaio e le catene di rinforzo, elementi che raccontano la storia dell'edificio e ne definiscono l'identità materica. Distribuita su due livelli e con giardino sul fronte, l'abitazione è stata ripensata per mantenere il carattere autentico della casa di campagna, coniugandolo con un'organizzazione funzionale degli spazi e con il comfort contemporaneo. Particolare attenzione è stata dedicata alla convivialità, creando ambienti accoglienti e flessibili, capaci di ospitare i numerosi amici dei proprietari.",
         "alts": [
-          "Soggiorno con volte a botte recuperate, Casa di Campagna Gabiano — restauro strutturale e identità materica",
-          "Cucina con soffitti a voltini e travi in acciaio, Casa di Campagna Gabiano — carattere autentico e comfort contemporaneo",
-          "Facciata con giardino sul fronte, Casa di Campagna Gabiano — recupero architettonico su due livelli",
-          "Zona conviviale con ambienti flessibili, Casa di Campagna Gabiano — spazi accoglienti per ospitalità",
-          "Dettaglio catene di rinforzo e volte originarie, Casa di Campagna Gabiano — segni distintivi della storia dell'edificio"
+          "Soggiorno con volte a botte recuperate, Casa di Campagna Gabiano - restauro strutturale e identità materica",
+          "Cucina con soffitti a voltini e travi in acciaio, Casa di Campagna Gabiano - carattere autentico e comfort contemporaneo",
+          "Facciata con giardino sul fronte, Casa di Campagna Gabiano - recupero architettonico su due livelli",
+          "Zona conviviale con ambienti flessibili, Casa di Campagna Gabiano - spazi accoglienti per ospitalità",
+          "Dettaglio catene di rinforzo e volte originarie, Casa di Campagna Gabiano - segni distintivi della storia dell'edificio"
         ]
       },
       "studio-privato": {
         "title": "Studio Privato",
         "description": "L'intervento si è concentrato sulla realizzazione della nuova scala di collegamento tra i due piani destinati a uffici, mettendo in relazione spazi caratterizzati da preesistenze differenti. La scala, con struttura in acciaio e pedate in legno, è definita da un corrimano che segue il profilo dei gradini e integra un sistema LED, coniugando funzionalità ed essenzialità formale. Lungo la scala, un sistema di sospensioni a grappolo accoglie il cliente e contribuisce a ridimensionare percettivamente l'altezza del soffitto esistente, rendendo l'ambiente più raccolto e rappresentativo.",
         "alts": [
-          "Scala in acciaio e legno con corrimano LED, Studio Privato Torino — collegamento tra i due piani uffici",
-          "Sospensioni a grappolo lungo la scala, Studio Privato Torino — illuminazione scenografica e ridimensionamento percettivo del soffitto"
+          "Scala in acciaio e legno con corrimano LED, Studio Privato Torino - collegamento tra i due piani uffici",
+          "Sospensioni a grappolo lungo la scala, Studio Privato Torino - illuminazione scenografica e ridimensionamento percettivo del soffitto"
         ]
       },
       "negozio-torino": {
         "title": "Negozio Torino",
         "description": "L'intervento ha riguardato l'ampliamento di un negozio a Torino, con la realizzazione di una nuova area reception e di un sistema dedicato al ricovero cappotti, dotato di appendiabiti rotante. Il progetto ha lavorato sulle variazioni di quota e sulle inclinazioni dei controsoffitti, creando un dinamico gioco di altezze. Un ribassamento marcato segna il passaggio tra la zona di ingresso–accoglienza e l'area operativa, definendo con chiarezza le funzioni e accompagnando il cliente nel percorso interno.",
         "alts": [
-          "Area reception con controsoffitto inclinato, Negozio Torino — ampliamento e gioco dinamico di altezze",
-          "Sistema appendiabiti rotante per ricovero cappotti, Negozio Torino — design funzionale e accoglienza",
-          "Zona ingresso con ribassamento marcato, Negozio Torino — passaggio tra accoglienza e area operativa",
-          "Dettaglio variazioni di quota nei controsoffitti, Negozio Torino — definizione delle funzioni attraverso le altezze",
-          "Vista d'insieme dello spazio commerciale ampliato, Negozio Torino — percorso interno e illuminazione progettata",
-          "Area operativa con controsoffitto ribassato, Negozio Torino — chiarezza funzionale e design contemporaneo"
+          "Area reception con controsoffitto inclinato, Negozio Torino - ampliamento e gioco dinamico di altezze",
+          "Sistema appendiabiti rotante per ricovero cappotti, Negozio Torino - design funzionale e accoglienza",
+          "Zona ingresso con ribassamento marcato, Negozio Torino - passaggio tra accoglienza e area operativa",
+          "Dettaglio variazioni di quota nei controsoffitti, Negozio Torino - definizione delle funzioni attraverso le altezze",
+          "Vista d'insieme dello spazio commerciale ampliato, Negozio Torino - percorso interno e illuminazione progettata",
+          "Area operativa con controsoffitto ribassato, Negozio Torino - chiarezza funzionale e design contemporaneo"
         ]
       },
       "stabilimento-industriale-govone": {
         "title": "Stabilimento Industriale Govone",
         "description": "Il progetto di ampliamento dello stabilimento industriale ha previsto la realizzazione di circa 6.800 mq di nuova superficie coperta, in continuità con il fabbricato esistente. L'intervento si colloca su un lotto di 17.000 mq, parte di un comparto più ampio originariamente costituito da un'area verde pianeggiante. Una porzione è stata destinata a verde e parcheggi pubblici, integrando l'espansione produttiva con spazi a servizio della collettività. Fulcro dell'intervento è stata la realizzazione di un impianto aereo di trasporto pallets, collegato al nuovo magazzino automatizzato, elemento strategico per l'efficientamento del ciclo logistico. I nuovi ambienti sono stati progettati con l'obiettivo di ottimizzare i processi produttivi, con particolare attenzione alla sicurezza e alla funzionalità. Il magazzino autoportante, rivestito in pannelli di lamiera coibentata, è stato volutamente differenziato per evidenziare visivamente la specificità delle attività ospitate e rendere leggibile l'organizzazione complessiva del complesso industriale.",
         "alts": [
-          "Vista aerea dell'ampliamento dello stabilimento, Stabilimento Industriale Govone — 6.800 mq di nuova superficie coperta",
-          "Magazzino automatizzato con pannelli di lamiera coibentata, Stabilimento Industriale Govone — struttura autoportante differenziata",
-          "Impianto aereo di trasporto pallets, Stabilimento Industriale Govone — efficientamento del ciclo logistico",
-          "Fabbricato esistente con ampliamento in continuità, Stabilimento Industriale Govone — lotto di 17.000 mq",
-          "Area produttiva con attenzione alla sicurezza, Stabilimento Industriale Govone — ottimizzazione dei processi",
-          "Parcheggi pubblici e area verde integrata, Stabilimento Industriale Govone — spazi a servizio della collettività",
-          "Interno del magazzino automatizzato, Stabilimento Industriale Govone — sistema logistico avanzato",
-          "Dettaglio struttura autoportante rivestita, Stabilimento Industriale Govone — specificità delle attività ospitate",
-          "Vista complessiva del complesso industriale, Stabilimento Industriale Govone — organizzazione leggibile degli spazi",
-          "Zona carico e scarico merci, Stabilimento Industriale Govone — collegamento tra impianto aereo e magazzino",
-          "Prospetto dell'ampliamento industriale, Stabilimento Industriale Govone — continuità architettonica con il fabbricato esistente",
-          "Area verde pianeggiante e stabilimento, Stabilimento Industriale Govone — integrazione tra produzione e territorio",
-          "Dettaglio pannelli coibentati del magazzino, Stabilimento Industriale Govone — rivestimento funzionale e differenziazione visiva"
+          "Vista aerea dell'ampliamento dello stabilimento, Stabilimento Industriale Govone - 6.800 mq di nuova superficie coperta",
+          "Magazzino automatizzato con pannelli di lamiera coibentata, Stabilimento Industriale Govone - struttura autoportante differenziata",
+          "Impianto aereo di trasporto pallets, Stabilimento Industriale Govone - efficientamento del ciclo logistico",
+          "Fabbricato esistente con ampliamento in continuità, Stabilimento Industriale Govone - lotto di 17.000 mq",
+          "Area produttiva con attenzione alla sicurezza, Stabilimento Industriale Govone - ottimizzazione dei processi",
+          "Parcheggi pubblici e area verde integrata, Stabilimento Industriale Govone - spazi a servizio della collettività",
+          "Interno del magazzino automatizzato, Stabilimento Industriale Govone - sistema logistico avanzato",
+          "Dettaglio struttura autoportante rivestita, Stabilimento Industriale Govone - specificità delle attività ospitate",
+          "Vista complessiva del complesso industriale, Stabilimento Industriale Govone - organizzazione leggibile degli spazi",
+          "Zona carico e scarico merci, Stabilimento Industriale Govone - collegamento tra impianto aereo e magazzino",
+          "Prospetto dell'ampliamento industriale, Stabilimento Industriale Govone - continuità architettonica con il fabbricato esistente",
+          "Area verde pianeggiante e stabilimento, Stabilimento Industriale Govone - integrazione tra produzione e territorio",
+          "Dettaglio pannelli coibentati del magazzino, Stabilimento Industriale Govone - rivestimento funzionale e differenziazione visiva"
         ]
       }
     }
@@ -184,13 +185,31 @@
   "contact": {
     "sectionTitle": "Contatti",
     "heading": "Parliamo del tuo progetto",
-    "description": "Per consulenze, sopralluoghi o semplicemente per conoscerci, scrivici.",
+    "description": "Per consulenze, sopralluoghi o semplicemente per conoscerci, compila il modulo o scrivici direttamente.",
     "email": "interni2architettura@gmail.com",
-    "cta": "Scrivici"
+    "cta": "Scrivici",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Messaggio",
+      "namePlaceholder": "Il tuo nome",
+      "emailPlaceholder": "La tua email",
+      "messagePlaceholder": "Parlaci del tuo progetto...",
+      "submit": "Invia messaggio",
+      "sending": "Invio in corso...",
+      "success": "Messaggio inviato! Ti risponderemo al più presto.",
+      "error": "Si è verificato un errore. Riprova o scrivici direttamente.",
+      "nameError": "Il nome deve contenere almeno 2 caratteri",
+      "emailError": "Inserisci un indirizzo email valido",
+      "messageError": "Il messaggio deve contenere almeno 10 caratteri",
+      "privacyLabel": "Ho letto e accetto l'",
+      "privacyLink": "informativa sulla privacy"
+    }
   },
   "footer": {
     "copyright": "© {year} Salamano & Ferro Architetti. Tutti i diritti riservati.",
-    "poweredBy": "Powered by"
+    "poweredBy": "Powered by",
+    "privacy": "Privacy Policy"
   },
   "notFound": {
     "title": "404",
@@ -205,6 +224,48 @@
   "common": {
     "loading": "Caricamento...",
     "backToHome": "Torna alla home"
+  },
+  "privacy": {
+    "title": "Informativa sulla Privacy",
+    "lastUpdated": "Ultimo aggiornamento: Marzo 2026",
+    "intro": "La presente informativa descrive le modalità di trattamento dei dati personali degli utenti che consultano il sito web interniarchitettura.it, ai sensi del Regolamento UE 2016/679 (GDPR).",
+    "controller": {
+      "title": "Titolare del Trattamento",
+      "content": "Il Titolare del trattamento è lo studio Ferro & Salamano Architetti, con sede a Torino. Per qualsiasi richiesta relativa al trattamento dei dati personali, è possibile scrivere a interni2architettura@gmail.com."
+    },
+    "dataCollected": {
+      "title": "Dati Raccolti",
+      "content": "Attraverso il modulo di contatto presente sul sito, raccogliamo i seguenti dati personali forniti volontariamente dall'utente:",
+      "items": ["Nome", "Indirizzo email", "Contenuto del messaggio"]
+    },
+    "purpose": {
+      "title": "Finalità del Trattamento",
+      "content": "I dati raccolti tramite il modulo di contatto sono utilizzati esclusivamente per rispondere alle richieste dell'utente e per fornire informazioni sui servizi dello studio."
+    },
+    "legalBasis": {
+      "title": "Base Giuridica",
+      "content": "Il trattamento dei dati è basato sul consenso dell'utente, espresso tramite l'invio volontario del modulo di contatto (Art. 6, par. 1, lett. a del GDPR)."
+    },
+    "retention": {
+      "title": "Conservazione dei Dati",
+      "content": "I dati personali saranno conservati per il tempo necessario a dare riscontro alla richiesta e comunque non oltre 12 mesi dall'ultimo contatto, salvo obblighi di legge."
+    },
+    "rights": {
+      "title": "Diritti dell'Interessato",
+      "content": "L'utente ha il diritto di accedere ai propri dati, richiederne la rettifica o la cancellazione, limitarne il trattamento, opporsi al trattamento e richiedere la portabilità dei dati. Per esercitare tali diritti, è sufficiente inviare una comunicazione a interni2architettura@gmail.com."
+    },
+    "cookies": {
+      "title": "Cookie",
+      "content": "Questo sito utilizza esclusivamente cookie tecnici necessari al funzionamento del sito. Non vengono utilizzati cookie di profilazione o di terze parti a fini pubblicitari."
+    },
+    "thirdParties": {
+      "title": "Servizi di Terze Parti",
+      "content": "Il sito si avvale dei seguenti servizi di terze parti:",
+      "items": [
+        "Vercel (hosting e analytics)",
+        "Resend (invio email dal modulo di contatto)"
+      ]
+    }
   },
   "meta": {
     "home": {
