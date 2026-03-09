@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 import { zodResolver } from '@hookform/resolvers/zod';
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { useForm } from 'react-hook-form';
 
 import { type ContactFormData, contactSchema } from '@/lib/schemas/contact';
@@ -12,7 +12,6 @@ import TransitionLink from './TransitionLink';
 
 export default function ContactForm() {
   const t = useTranslations('contact.form');
-  const locale = useLocale();
   const [status, setStatus] = useState<
     'idle' | 'loading' | 'success' | 'error'
   >('idle');
@@ -150,7 +149,7 @@ export default function ContactForm() {
         <span className='font-text text-xs leading-relaxed font-light text-gray-400'>
           {t('privacyLabel')}{' '}
           <TransitionLink
-            href={`/${locale}/privacy-policy`}
+            href={`/privacy-policy`}
             className='text-background underline underline-offset-2 transition-colors hover:text-primary'
           >
             {t('privacyLink')}

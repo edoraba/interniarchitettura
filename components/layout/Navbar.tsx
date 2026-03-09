@@ -4,7 +4,6 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 
 import { useLenis } from 'lenis/react';
 import { useTranslations } from 'next-intl';
-import { useLocale } from 'next-intl';
 
 import LanguageSwitcher from '@/components/ui/LanguageSwitcher';
 import { usePageTransition } from '@/components/ui/PageTransition';
@@ -24,7 +23,6 @@ export default function Navbar({ glass = false }: { glass?: boolean }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const isHidden = useRef(false);
   const lenisRef = useRef<ReturnType<typeof useLenis> | null>(null);
-  const locale = useLocale();
   const pathname = usePathname();
   const { navigateWithTransition } = usePageTransition();
   const scrollToSection = useScrollToSection();
@@ -171,7 +169,7 @@ export default function Navbar({ glass = false }: { glass?: boolean }) {
         <div className='container flex items-center justify-between py-4'>
           {/* Logo */}
           <TransitionLink
-            href={`/${locale}`}
+            href='/'
             className='font-title text-lg font-light tracking-[0.2em] text-foreground uppercase transition-opacity hover:opacity-70'
           >
             S&F
